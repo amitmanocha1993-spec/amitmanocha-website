@@ -1,0 +1,317 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Portfolio | Amit Manocha</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@500;600;700&amp;family=Montserrat:wght@600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#e0e3e6",
+                    "on-background": "#191c1e",
+                    "on-surface": "#191c1e",
+                    "on-error": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "secondary-container": "#9ae1ff",
+                    "on-secondary-container": "#09657f",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed-dim": "#89d0ed",
+                    "inverse-primary": "#b3c5ff",
+                    "surface-variant": "#e0e3e6",
+                    "on-primary-fixed": "#00174a",
+                    "error": "#ba1a1a",
+                    "background": "#f7f9fc",
+                    "surface-container": "#eceef1",
+                    "surface-container-low": "#f2f4f7",
+                    "outline-variant": "#c5c6d2",
+                    "primary-fixed": "#dbe1ff",
+                    "surface-tint": "#435b9f",
+                    "deep-navy": "#001A4D",
+                    "surface-bright": "#f7f9fc",
+                    "tertiary-fixed": "#ffdad5",
+                    "surface-dim": "#d8dadd",
+                    "on-secondary-fixed": "#001f29",
+                    "outline": "#757682",
+                    "on-primary-container": "#758dd5",
+                    "tertiary-fixed-dim": "#ffb4a9",
+                    "inverse-surface": "#2d3133",
+                    "on-primary": "#ffffff",
+                    "glass-white": "rgba(255, 255, 255, 0.7)",
+                    "on-primary-fixed-variant": "#2a4386",
+                    "surface": "#f7f9fc",
+                    "secondary": "#0c6780",
+                    "inverse-on-surface": "#eff1f4",
+                    "surface-container-high": "#e6e8eb",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#5a0001",
+                    "primary-container": "#002366",
+                    "tertiary": "#330000",
+                    "error-container": "#ffdad6",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#f35f4e",
+                    "on-secondary-fixed-variant": "#004d62",
+                    "on-tertiary-fixed-variant": "#8d150e",
+                    "primary-fixed-dim": "#b3c5ff",
+                    "on-tertiary-fixed": "#410000",
+                    "secondary-fixed": "#baeaff",
+                    "pure-white": "#FFFFFF",
+                    "on-surface-variant": "#444650",
+                    "primary": "#00113a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "stack-xl": "120px",
+                    "gutter": "32px",
+                    "margin-mobile": "24px",
+                    "margin-desktop": "80px",
+                    "container-max": "1440px"
+            },
+            "fontFamily": {
+                    "display-lg": ["Playfair Display"],
+                    "body-lg": ["Inter"],
+                    "label-caps": ["Montserrat"],
+                    "headline-md": ["Playfair Display"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "headline-xl": ["Playfair Display"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["20px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                    "display-lg-mobile": ["48px", {"lineHeight": "1.1", "fontWeight": "700"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #f7f9fc;
+            color: #191c1e;
+            overflow-x: hidden;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(197, 198, 210, 0.2);
+        }
+        .cinematic-reveal {
+            animation: reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes reveal {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .masonry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 40px;
+        }
+        @media (max-width: 768px) {
+            .masonry-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md bg-background">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-glass-white backdrop-blur-xl border-b border-outline-variant/20 shadow-sm transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center px-6 md:px-margin-desktop py-6 max-w-container-max mx-auto">
+<a class="flex items-center gap-3 group" href="#"><img alt="Amit Manocha Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd4IG71Z796VAv0zTlNjNixZ2qJQcQHzeLdLkYFSPBvyAkvONGJPoZXOLqEvJ9BdMRoH1BI7b55z0dJowxT47bEpgDcjaEBCBWzt-L56z74Y5ILcmXyetSw-_BAqW8qeATV0IHf_OUayt1uUlzv6XDMvsMUd-HezwpSyuN_wBjPtkeqEksJwgsBhEf6KgbHmuznLH2j7NT-K0daBNgiFekr2zTLFJ_xpBflMNucDtV-xbv9DcFMxQF2JxfJ6TontjVtEwl5sXjVg"><span class="font-headline-md text-2xl md:text-3xl font-bold text-primary">Amit Manocha</span></a>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Portfolio</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Books</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Poetry</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Journey</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Contact</a>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full font-body-md hover:opacity-80 transition-opacity">Let's Talk</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary" onclick="toggleMobileMenu()">
+<span class="material-symbols-outlined" style="font-size: 32px;">menu</span>
+</button>
+</div>
+</nav>
+<!-- Mobile Menu Overlay (Hidden by default) -->
+<div class="fixed inset-0 bg-surface z-[60] flex flex-col p-8 transform translate-x-full transition-transform duration-500 md:hidden" id="mobile-menu">
+<div class="flex justify-end">
+<button onclick="toggleMobileMenu()"><span class="material-symbols-outlined text-4xl">close</span></button>
+</div>
+<div class="flex flex-col space-y-8 mt-12">
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Home</a>
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Portfolio</a>
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Books</a>
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Contact</a>
+</div>
+</div>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl">
+<div class="cinematic-reveal">
+<p class="font-label-caps text-label-caps text-primary tracking-[0.3em] mb-4">SELECTED WORKS</p>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary max-w-4xl mb-8">
+                    Curating experiences through <span class="italic font-normal">visual poetry</span>.
+                </h1>
+<div class="flex flex-wrap gap-4" id="category-filters">
+<button class="px-6 py-2 rounded-full border border-primary bg-primary text-white font-label-caps text-[10px] transition-all" data-filter="all">ALL</button>
+<button class="px-6 py-2 rounded-full border border-outline text-on-surface-variant font-label-caps text-[10px] hover:border-primary transition-all" data-filter="branding">BRANDING</button>
+<button class="px-6 py-2 rounded-full border border-outline text-on-surface-variant font-label-caps text-[10px] hover:border-primary transition-all" data-filter="motion">MOTION GRAPHICS</button>
+<button class="px-6 py-2 rounded-full border border-outline text-on-surface-variant font-label-caps text-[10px] hover:border-primary transition-all" data-filter="digital">DIGITAL DESIGN</button>
+</div>
+</div>
+</section>
+<!-- Portfolio Gallery -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto pb-stack-xl">
+<div class="masonry-grid">
+<!-- Project 1: Branding -->
+<div class="group cursor-pointer portfolio-item cinematic-reveal" data-category="branding" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.8] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Project Alpha" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDScf90jN-wJ56IMX7kbZ4E9g3713sp02ZytErpPK7qNsZuUWgLnS9uyQvZ6T6PVHdcryE_WUfOliF49Znq7bJD0Gi-gUH2eYTWoKnXQIVmkq5WG0VF02Q8VXuOZHZDHTGSLcIi8F2BuSY6WBIcDFJhyBO69XqtesSHgFlXUGvkCcpx51SpZRQ2KEAK1qY-DaLwRV9A9fGsft5HXzTwcJXuVKyYK2_JCMvVD91t6J-GATVZS60Gqh2zBGc5aoSVjZmt7vLCnzvLNA">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">BRANDING • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">IYC Branding Evolution</h3>
+</div>
+</div>
+<!-- Project 2: Motion -->
+<div class="group cursor-pointer portfolio-item mt-0 md:mt-20 cinematic-reveal" data-category="motion" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.71] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Business Conclave" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtpESn4gmPObpPQQ9R7CEiRyy0uHF5GPh8O4U9bmZQLtX30wdguRvMQbYjHbCm-VFnYtWakAqisuRWv_D4JPv61SPSP_f9tIXcXuR4UC45Hfdipjg9hMVkvlTzCD67G4YcSTqgGhdUiQwKhnDwVj5_vx7MjI9W9hMXq6Zv1EwiLo13GVAu9YKC1yzWMF-2GcQLQcxB3PCDUzTlicQdayWTYJNW0Ylypq60X-C_Q5CF9A6YT5nTT_lDCcajwvksdJtzmZDEbfX6aQ">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">MOTION • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">IYC Business Conclave</h3>
+</div>
+</div>
+<!-- Project 3: Digital -->
+<div class="group cursor-pointer portfolio-item cinematic-reveal" data-category="digital" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.67] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Digital Flow" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeskxKkX0va16kybtntjs_GoXoFzsCHFhMrfo2SzDluVJmSEs9damSin2bagRcdlSi1j3lfudaVZNi0ePFef6IGrOu3n0UB9FcnGGZ18iDiA672zMOnSd1pjNR2PeXlxWVuE1iVqAB55uqwnuUfqXPsWZP8QnTtK312CnXSTNIk4Gsa57B1euHOCtUZaaNW2kUfMEr_KsW4yeinqoL4rpPYAG5Zf9ml7881tj3pYjhzUYc8bv7JYSrORIk70dHMOhDSG6meFj67A">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">DIGITAL • 2023</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">Fluid Interfaces</h3>
+</div>
+</div>
+<!-- Project 4: Branding -->
+<div class="group cursor-pointer portfolio-item mt-0 md:mt-[-40px] cinematic-reveal" data-category="branding" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.8] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Cultural Identity" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhERCJ4eKXSXXo-2dBjVELaq5FiaV19WuisbuQ_yT6OyajRxy7dq_QqGDeXQ-rapPe-YB0-vHsKJB7JFVTQWF7aqdHwpD5QFC9NNuAODPnUFl-7aRwWeR2aln4L-qBcj-OAmWWgQ3zsVWeM6vwNA6ayyRWuxjqXjpvB4ITyBkZMl0Vb6RXoZkVICRmqu0n0Z1E61PMLtzxaMlPTzZ4YSBq8fZb3GoU9g5zbbgAYNHsMCiuSuzuTvEzT31Ssv5B8MJ2ou5xYua5xg">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">BRANDING • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">The Aziim Identity</h3>
+</div>
+</div>
+<!-- Project 5: Motion -->
+<div class="group cursor-pointer portfolio-item cinematic-reveal" data-category="motion" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.68] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Kinetic Type" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7uR58V0BsoAU0QoOf5PXqi1MtaEbh5nMvDN147YpFa3gJ489hmgvtVx4gJHywcN35WCxhW6DZC3wYpq_ooZ5dM6Yr3o5wQduMYfYnuPOdLKoS6b-oTgbfVo8Dyr_6HLe5awCP8zeLfsS4hOgEns8ssxlEqFbPzO-b6nuHQcFowYjx9qMaqzFBXHPz1C09BFnk0MjyLLIaU3Ox9BS9LOZXXWN0uyBfhRCY--aPlZ1KZSL0mPAf8OiS0nOAzb9DRVAEZ8eIiNyA9g">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">MOTION • 2023</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">Kinetic Expressionism</h3>
+</div>
+</div>
+<!-- Project 6: Digital -->
+<div class="group cursor-pointer portfolio-item mt-0 md:mt-20 cinematic-reveal" data-category="digital" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.8] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Experience Design" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgMYaU97LOy-PR26jV3upGQHuCNtgSjfkdfYu2TKjagmfnzqrt9oYzRe_AS3XTd5vSvilQInbhK-a1F_DJaNOcuLioxC-0duaouNlGVKXOePEKMgn2JSPT4--ai0_JvuOj_TdhTQu0oYwkkxCFdmJ1X2QPHpngEoLnODxp-KQr5MBxjIQ7jGW_n0vhHEb0BE09Qvo-ONUEuE2rKYAxPaZTJ9j7uUh6Asz2QMhrq4NTvkudICQ4xR9d4rNMSLQgfB8CfZXqONpI_w">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">DIGITAL • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">Visionary Ecosystems</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="bg-primary-container py-stack-xl text-center">
+<div class="px-margin-mobile md:px-margin-desktop max-w-3xl mx-auto">
+<h2 class="font-headline-xl text-headline-xl text-on-primary-container mb-8">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2><p class="text-on-primary-container/80 mb-8 font-body-md">Aziim Dehlvi is my literary persona for creative writing and poetry.</p>
+<button class="bg-on-primary-container text-primary-container px-12 py-5 rounded-full font-body-lg font-bold hover:scale-105 transition-transform duration-300">
+                    Start a Conversation
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-stack-xl border-t border-outline-variant/10 bg-surface-bright transition-all duration-500 flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="contact"><div class="mb-8 flex flex-col items-center gap-4"><img alt="Amit Manocha Logo" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd4IG71Z796VAv0zTlNjNixZ2qJQcQHzeLdLkYFSPBvyAkvONGJPoZXOLqEvJ9BdMRoH1BI7b55z0dJowxT47bEpgDcjaEBCBWzt-L56z74Y5ILcmXyetSw-_BAqW8qeATV0IHf_OUayt1uUlzv6XDMvsMUd-HezwpSyuN_wBjPtkeqEksJwgsBhEf6KgbHmuznLH2j7NT-K0daBNgiFekr2zTLFJ_xpBflMNucDtV-xbv9DcFMxQF2JxfJ6TontjVtEwl5sXjVg"><h2 class="font-headline-md text-headline-md text-primary">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2><p class="font-body-md text-on-surface-variant max-w-2xl">Collaborating at the intersection of design and literature. Amit Manocha is my creative professional name for design and strategy, while Aziim Dehlvi is my literary pen name for poetry and prose.</p></div><div class="flex space-x-6 mb-8"><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">LinkedIn</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Instagram</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Threads</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a></div><p class="font-body-md text-body-md text-on-surface-variant">© 2026 Amit Manocha. All rights reserved.</p></footer>
+<script>
+        // Filter logic
+        const filterButtons = document.querySelectorAll('#category-filters button');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filter = btn.getAttribute('data-filter');
+                
+                // Update button styles
+                filterButtons.forEach(b => {
+                    b.classList.remove('bg-primary', 'text-white');
+                    b.classList.add('text-on-surface-variant');
+                });
+                btn.classList.add('bg-primary', 'text-white');
+                btn.classList.remove('text-on-surface-variant');
+
+                // Filter items
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                        setTimeout(() => item.style.opacity = '1', 10);
+                    } else {
+                        item.style.opacity = '0';
+                        setTimeout(() => item.style.display = 'none', 300);
+                    }
+                });
+            });
+        });
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('translate-x-full');
+        }
+
+        // Scroll animations for projects
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('cinematic-reveal');
+                }
+            });
+        }, observerOptions);
+
+        portfolioItems.forEach(item => {
+            item.style.opacity = '0';
+            observer.observe(item);
+        });
+    </script>
+
+
+
+
+</body></html>

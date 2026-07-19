@@ -1,0 +1,376 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Journey &amp; Contact | Amit Manocha (Aziim Dehlvi)</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Inter:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e0e3e6",
+                        "on-background": "#191c1e",
+                        "on-surface": "#191c1e",
+                        "on-error": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#9ae1ff",
+                        "on-secondary-container": "#09657f",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed-dim": "#89d0ed",
+                        "inverse-primary": "#b3c5ff",
+                        "surface-variant": "#e0e3e6",
+                        "on-primary-fixed": "#00174a",
+                        "error": "#ba1a1a",
+                        "background": "#f7f9fc",
+                        "surface-container": "#eceef1",
+                        "surface-container-low": "#f2f4f7",
+                        "outline-variant": "#c5c6d2",
+                        "primary-fixed": "#dbe1ff",
+                        "surface-tint": "#435b9f",
+                        "deep-navy": "#002366",
+                        "surface-bright": "#f7f9fc",
+                        "tertiary-fixed": "#ffdad5",
+                        "surface-dim": "#d8dadd",
+                        "on-secondary-fixed": "#001f29",
+                        "outline": "#757682",
+                        "on-primary-container": "#758dd5",
+                        "tertiary-fixed-dim": "#ffb4a9",
+                        "inverse-surface": "#2d3133",
+                        "on-primary": "#ffffff",
+                        "glass-white": "rgba(255, 255, 255, 0.7)",
+                        "on-primary-fixed-variant": "#2a4386",
+                        "surface": "#f7f9fc",
+                        "secondary": "#0c6780",
+                        "inverse-on-surface": "#eff1f4",
+                        "surface-container-high": "#e6e8eb",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#5a0001",
+                        "primary-container": "#002366",
+                        "tertiary": "#330000",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-container": "#f35f4e",
+                        "on-secondary-fixed-variant": "#004d62",
+                        "on-tertiary-fixed-variant": "#8d150e",
+                        "primary-fixed-dim": "#b3c5ff",
+                        "on-tertiary-fixed": "#410000",
+                        "secondary-fixed": "#baeaff",
+                        "pure-white": "#FFFFFF",
+                        "on-surface-variant": "#444650",
+                        "primary": "#002366"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-xl": "120px",
+                        "gutter": "32px",
+                        "margin-mobile": "24px",
+                        "margin-desktop": "80px",
+                        "container-max": "1440px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "body-lg": ["Inter"],
+                        "label-caps": ["Montserrat"],
+                        "headline-md": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "headline-xl": ["Playfair Display"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["72px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["20px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "600" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "500" }],
+                        "display-lg-mobile": ["48px", { "lineHeight": "1.1", "fontWeight": "700" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        .timeline-line {
+            background: linear-gradient(to bottom, transparent, #002366 15%, #002366 85%, transparent);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-glass-white dark:bg-primary/70 backdrop-blur-xl border-b border-outline-variant/20 shadow-sm transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+<img alt="Amit Manocha Logo" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwjEcTlj55WwEo9u5LgIx5NOkchKuTJnp6_01FX8D6FLsAUjiU7wy8pQypF_aZpwPI6GJS5JS5P_Ulw2_MvECITNNb7Vt3RIXre-TWuyFq9B_4H6dhDWary2JZcnP_2ULiayVKgqB9gMfn8s61ZsTOG8VsXWUxln_x9n1XBO9P450A9FuTIUmSTSg8tBzjGIcCq2_8nrJF-y9IOw5ecDn1ae9USEqTJ087R2Ooks8XWv80p_sayqeGLOg-KJJ5bHCIRs6l2d9iQ">
+<a class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed hidden sm:block" href="#">Amit Manocha</a>
+</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Home</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Portfolio</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Books</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Poetry</a>
+<a class="font-body-md text-body-md text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1" href="#">Journey</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full font-body-md hover:opacity-80 transition-opacity">
+            Let's Talk
+        </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl">
+<div class="flex flex-col items-center text-center">
+<span class="font-label-caps text-label-caps text-secondary mb-6 tracking-widest uppercase">The Evolution of a Creative</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8 max-w-4xl italic">A Journey Through Time.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Whether you're looking for cinematic design, poetic insight under my pen name Aziim Dehlvi, or a creative partnership with Amit Manocha, my door is always open. Let's craft something memorable through our shared vision.</p>
+</div>
+</section>
+<!-- Timeline Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl relative">
+<div class="absolute left-1/2 -translate-x-1/2 h-full w-0.5 timeline-line hidden md:block transition-all duration-1000 opacity-100 translate-y-0"></div>
+<div class="space-y-32 relative">
+<!-- 1. 1993 - Roots & Beginnings -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">1993</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Roots &amp; Beginnings</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Born in Delhi with family roots in Chiniot, a rich blend of cultures laid the foundation for a life steeped in heritage and artistic inquiry.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 flex justify-center md:justify-start pl-0 md:pl-12">
+<img alt="Roots &amp; Beginnings" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEylu-5IZ8WtmCiVAvvoLfOD5JmbNjiLBn-EzMFjzxwlYRrIFPW8hvxleJ6fB6xRy6rqRUW5kwtbVb78EXksuCCC097lJPz3HzBIdh9vfRO1DFrvBa8oqVIjwWL0z4EItK50S2t_8LIhmUQfNgCoMyrgd0R_tVrla8j4LmSaR_1WrF6Mu9X9f52C7uxuaon-2_HF9T5Lt5gqiqlxGFcw01QYqptDa5no_ICDjX2-bakhz53OPdefc_DMjGLH26nX7ydspgooeU7Q">
+</div>
+</div>
+<!-- 2. 2006 - Discovering Design -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2006</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Discovering Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Stepped into the world of graphic design, ignited by a profound passion for typography, visual hierarchy, and the art of branding.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1 flex justify-center md:justify-end pr-0 md:pr-12">
+<img alt="Discovering Design" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9F4zInoamDhza7TilJH7AeHjg04fzygdDWslp-VaFeDdNUwwFn5LSsRh0RzU_1nthsedwEzhWRxmXuEWCi4dhyDAat4Vc6Pa7bNIXViWHy29s8Ak_2lnk35nzE4PXeC1g78F_U3VmU35exqJX21KvL8Vx-_SVZ1H5-X5uQYlfrK55E1TiRKo3L1z-0tMR3WkqE6lHLs0a6dHExIwUulbG_nMaiO6HqEex93-C3TUs8lODBzNKTIW_HBuE-SEB2X4PqNJbY7t0ew">
+</div>
+</div>
+<!-- 3. 2011 - Professional Career Begins -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2011</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Professional Career Begins</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Joined Anand Diaries Pvt. Ltd, where raw creativity was forged into a professional discipline, managing high-stakes production and design.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3"><div class="flex justify-center md:justify-start pl-0 md:pl-12"><img alt="Anand Diaries Logo" class="rounded-[24px] w-full max-w-[500px] aspect-video object-contain bg-white p-8 shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0uiVe3R5q_X3GVga9JrOekIfSOJMHM8aLfT-a-Md_N4m9c-GvSSnl-A7fWwDd9YbERk04wFM5k11c4bnqs7PPHpH-1CfB5vmvNdseyKEZiTTdDyWk79gFoOs4DSx1PiX3XkzHBcgHlJRWODb43A_ynGN571XAJbiX0p0p4DHViuc0B7aaHdyEDhyPVzyY-txccNMBhiTmOVTYLO-wtwd25ogJyPAfIVXAWH08JdbLnbkwy9OVB-HM3wYDg"></div></div>
+</div>
+<!-- 4. 2015 - Building Brand Decorator -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2015</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Building Brand Decorator</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Launched Brand Decorator, marking the start of a thriving freelance journey and establishing a unique voice in the creative industry.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1"><div class="flex justify-center md:justify-end pr-0 md:pr-12"><img alt="Brand Decorator Logo" class="rounded-[24px] w-full max-w-[500px] aspect-video object-contain bg-primary p-8 shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD62Vk2h_Mspu0_flHZXxlfvsrLUhLlJogbtwp2ia5gi173R61dQTzhEmQkXeeTvAjyVG7ZvMX_mF8THdCpnEjbffJQPZhscZbpOMdRJNnEcPPEPRSf3uL4Wz56XHlSdVXpBhKLBfRVLeJSDiQQDpI2_FJ7Kte8XGRwVnzSAJVCFn5Y3IAEbzfg5cBydHqWrqNOZUs-D5WkrQM9frsZF8XUQ5jT5PupB1164BQzq4oo2ifiCy5fZtW4pRwza-_gfsv9wfPpxf_pw"></div></div>
+</div>
+<!-- 5. 2019 - Exploring Language, Poetry & Culture -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2019</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Language &amp; Culture</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Deep immersion into Urdu and Persian literature. The name 'Aziim Dehlvi' emerges, reflecting a deep connection to Indo-Persian heritage.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 flex justify-center md:justify-start pl-0 md:pl-12">
+<img alt="Poetry &amp; Culture" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnOGm6NYKld0CmPJh3KGPeezBiTFQ8vG6QJKsw7WjA_nsIN587P63kflqnmW5EEV4_DH9zgcUR-ABRfwwfwWTjGBZzwmarvwpjTJJ1Oi477cLVyUlSUzZVOqCWamcZLYmZxuOC4isMgjKWHKOxJBCr04559nKoplRQEbU2PPs5CMsvnpLg7q1q8UXBfGgyOutBlMfjkeIfkEaMgWHQmHMaGBc3BhLm7PYByfkltIRGMkLyw4Yyo5gW2dqlt1YIPM_nk4FvrRyS0Q">
+</div>
+</div>
+<!-- 6. 2025 - First Qawwali Composition -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2025</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Qawwali Composition</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">A spiritual milestone: writing a Qawwali for master Sant Rajinder Singh Ji Maharaj, with music composed by the renowned Aman Pant.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1 flex justify-center md:justify-end pr-0 md:pr-12">
+<img alt="Qawwali Composition" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt0TNABH8pS-JTm5OLrPT3aOTmAF-yq0Dx2PEJnm1UpxuxaVB7QSh43Taez91Br3ntNsGbCTBWLOmWP3fHVW_283wUvK4dTVdMpBJfLPFKcfnb4X4AVUszH7giAB99Q2S8dTs4rfC8ZuNyyFmaqsIiGsXrYgLZy-A_32ix_Mcci8R7DKB5JzzBeGLbvjWnVrYKK_TnPLdeFC0gT-iZVGZKmPoJRZj0RhucIBI1YnGDcsxrITdFxoyTiYw8Tq7TvU5BgOgJ8KbT2w">
+</div>
+</div>
+<!-- 7. 2026 - Becoming an Author -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2026</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Becoming an Author</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Published 'Decode the Divorce Industry in India', a critical look at modern societal challenges through a legal and social lens.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 flex justify-center md:justify-start pl-0 md:pl-12">
+<img alt="Book Mockup" class="rounded-[24px] w-full max-w-[350px] object-contain shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0ujADbbTGx5LXbpDZyrJCfoTq29Pf7OJICno4sYis3ECUYqnuYciGsIMXZMC4rM80_5gm2xMXHUr4SjjjFW9zd5V6AfIDZvDiUZ5b2rX0-ePsxA5S9SF3bG8r7mvflhh8WkZ8Erf0dX7f596gL1JLqUIeoejovBaLk16lHHoNpJWJ0v5Ih4tKF6w9SJMTm0YFz5OiMWVPMLJ4bEj1ev_Op36eJDot3UTzSGnG-AgCnSjaGzAg5s3GaOm">
+</div>
+</div>
+<!-- 8. Today - Intersection -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">TODAY</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Design, Literature &amp; Creative Direction</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">The final convergence of all mediums — where cinematic design meets poetic truth and strategic creative direction.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1 flex justify-center md:justify-end pr-0 md:pr-12">
+<div class="bg-primary/5 rounded-[24px] p-8 flex items-center justify-center">
+<img alt="Aziim Dehlvi Logo" class="w-48 h-auto opacity-40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwjEcTlj55WwEo9u5LgIx5NOkchKuTJnp6_01FX8D6FLsAUjiU7wy8pQypF_aZpwPI6GJS5JS5P_Ulw2_MvECITNNb7Vt3RIXre-TWuyFq9B_4H6dhDWary2JZcnP_2ULiayVKgqB9gMfn8s61ZsTOG8VsXWUxln_x9n1XBO9P450A9FuTIUmSTSg8tBzjGIcCq2_8nrJF-y9IOw5ecDn1ae9USEqTJ087R2Ooks8XWv80p_sayqeGLOg-KJJ5bHCIRs6l2d9iQ">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+<div class="space-y-8">
+<h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary">Collaborate with Amit Manocha&nbsp;</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Whether you're looking for cinematic design, poetic insight under my pen name Aziim Dehlvi, or a creative partnership with Amit Manocha, my door is always open. Let's craft something memorable through our shared vision.</p>
+<div class="space-y-6 pt-8">
+<div class="flex items-center gap-6 group">
+<div class="w-14 h-14 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">alternate_email</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline uppercase">Primary Inquiries</p>
+<a class="font-body-lg text-body-lg text-primary hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a>
+</div>
+</div>
+<div class="flex items-center gap-6 group">
+<div class="w-14 h-14 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline uppercase">Collaborations</p>
+<a class="font-body-lg text-body-lg text-primary hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a>
+</div>
+</div>
+</div>
+</div>
+<div class="glass-card p-10 rounded-[24px] transition-all duration-1000 opacity-100 translate-y-0">
+<form class="space-y-6" onsubmit="return false;">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">NAME</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="Your name" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">EMAIL</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="your@email.com" type="email">
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">SUBJECT</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="Project or Poetry" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">MESSAGE</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="Tell me about your vision..." rows="5"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-full font-body-lg font-bold hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                        Send Message
+                        <span class="material-symbols-outlined">send</span>
+</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-stack-xl bg-surface-bright dark:bg-primary border-t border-outline-variant/10 transition-all duration-500 ease-out">
+<div class="flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<img alt="Amit Manocha Logo" class="h-16 w-auto mb-8 grayscale opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwjEcTlj55WwEo9u5LgIx5NOkchKuTJnp6_01FX8D6FLsAUjiU7wy8pQypF_aZpwPI6GJS5JS5P_Ulw2_MvECITNNb7Vt3RIXre-TWuyFq9B_4H6dhDWary2JZcnP_2ULiayVKgqB9gMfn8s61ZsTOG8VsXWUxln_x9n1XBO9P450A9FuTIUmSTSg8tBzjGIcCq2_8nrJF-y9IOw5ecDn1ae9USEqTJ087R2Ooks8XWv80p_sayqeGLOg-KJJ5bHCIRs6l2d9iQ">
+<h2 class="font-headline-md text-headline-md text-primary dark:text-primary-fixed mb-4">Amit Manocha</h2>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant mb-4 italic">A.K.A. Aziim Dehlvi</p>
+<div class="flex flex-col gap-2 mb-8">
+<a class="font-body-md text-primary hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a>
+<a class="font-body-md text-primary hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a>
+</div>
+<div class="flex flex-wrap justify-center gap-8 mb-12">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">LinkedIn</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Instagram</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Threads</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Contact</a>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant opacity-60">
+            © 2026 Amit Manocha. All rights reserved.
+        </p>
+</div>
+</footer>
+<script>
+    // Subtle scroll effect for the header
+    window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 20) {
+            nav.classList.add('py-4');
+            nav.classList.remove('py-6');
+            nav.classList.add('shadow-md');
+        } else {
+            nav.classList.add('py-6');
+            nav.classList.remove('py-4');
+            nav.classList.remove('shadow-md');
+        }
+    });
+
+    // Simple Fade-in Observer for Timeline
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-10');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.glass-card, .timeline-line').forEach(el => {
+        el.classList.add('opacity-0', 'transition-all', 'duration-1000');
+        if (el.classList.contains('glass-card')) el.classList.add('translate-y-10');
+        observer.observe(el);
+    });
+</script>
+
+
+
+
+</body></html>

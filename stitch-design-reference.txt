@@ -1,0 +1,2292 @@
+<!-- Amit Manocha - Landing Page (Final Branding) -->
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Amit Manocha | Creative Visionary</title>
+<link href="https://lh3.googleusercontent.com/aida-public/AB6AXuA3stHPcuBEqD11nvNxItK30E_zLIohPjRHI3GJ_bVCBmJ8tKumRl8ic_8ioQiK6UcNXOPjLVW5mNsazjxbmW-eGJjypfU2FOBZ9ec6NkPvl40EXKS7DluDUyXrJdQ_NvbOgZPUb4iuXLWyN0TBmkRX0Fhern3jzF8yiBzIOuDNh8qjoQc1w55zWm2YnnTM1vSSOoV3PE-YxA4tYujHeb92Gqc1j5cdVq2DuQfhi99M7KmtO91oi0kEw3bdwkVP9ZKm4xptcDtOWg" rel="icon" type="image/png">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Montserrat:wght@600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed-dim": "#ffb4a9",
+                        "on-primary-fixed-variant": "#2a4386",
+                        "secondary-fixed-dim": "#89d0ed",
+                        "surface-variant": "#e0e3e6",
+                        "surface-tint": "#435b9f",
+                        "surface-container-low": "#f2f4f7",
+                        "outline-variant": "#c5c6d2",
+                        "surface-container-highest": "#e0e3e6",
+                        "on-surface": "#191c1e",
+                        "tertiary-container": "#5a0001",
+                        "glass-white": "rgba(255, 255, 255, 0.7)",
+                        "primary": "#00113a",
+                        "on-background": "#191c1e",
+                        "on-secondary-fixed": "#001f29",
+                        "secondary-container": "#9ae1ff",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#410000",
+                        "surface-bright": "#f7f9fc",
+                        "on-primary-fixed": "#00174a",
+                        "secondary-fixed": "#baeaff",
+                        "inverse-primary": "#b3c5ff",
+                        "deep-navy": "#001A4D",
+                        "on-secondary-fixed-variant": "#004d62",
+                        "inverse-on-surface": "#eff1f4",
+                        "on-primary-container": "#758dd5",
+                        "primary-container": "#002366",
+                        "error": "#ba1a1a",
+                        "surface-container": "#eceef1",
+                        "surface": "#f7f9fc",
+                        "on-error-container": "#93000a",
+                        "background": "#f7f9fc",
+                        "surface-dim": "#d8dadd",
+                        "on-tertiary-fixed-variant": "#8d150e",
+                        "surface-container-high": "#e6e8eb",
+                        "tertiary-fixed": "#ffdad5",
+                        "inverse-surface": "#2d3133",
+                        "outline": "#757682",
+                        "surface-container-lowest": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#444650",
+                        "on-secondary-container": "#09657f",
+                        "primary-fixed-dim": "#b3c5ff",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#dbe1ff",
+                        "pure-white": "#FFFFFF",
+                        "secondary": "#0c6780",
+                        "on-tertiary-container": "#f35f4e",
+                        "tertiary": "#330000"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px",
+                        "2xl": "1.5rem"
+                    },
+                    spacing: {
+                        "container-max": "1440px",
+                        "margin-desktop": "80px",
+                        "stack-xl": "120px",
+                        "gutter": "32px",
+                        "margin-mobile": "24px"
+                    },
+                    fontFamily: {
+                        "body-md": ["Inter"],
+                        "label-caps": ["Montserrat"],
+                        "body-lg": ["Inter"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "headline-xl": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "display-lg": ["Playfair Display"],
+                        "nastaleeq": ["'Jameel Noori Nastaleeq'", "serif"]
+                    },
+                    fontSize: {
+                        "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "label-caps": ["12px", { lineHeight: "1.0", letterSpacing: "0.15em", fontWeight: "600" }],
+                        "body-lg": ["20px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "display-lg-mobile": ["48px", { lineHeight: "1.1", fontWeight: "700" }],
+                        "headline-xl": ["48px", { lineHeight: "1.2", letterSpacing: "0.05em", fontWeight: "600" }],
+                        "headline-md": ["32px", { lineHeight: "1.3", fontWeight: "500" }],
+                        "display-lg": ["72px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }]
+                    },
+                    boxShadow: {
+                        'ambient': '0 10px 40px -10px rgba(0, 0, 0, 0.04)',
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(0, 17, 58, 0.04);
+        }
+        
+        .mesh-gradient {
+            background-color: #f7f9fc;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(0, 26, 77, 0.08) 0, transparent 50%), 
+                radial-gradient(at 100% 0%, rgba(137, 208, 237, 0.15) 0, transparent 50%), 
+                radial-gradient(at 50% 50%, rgba(255, 255, 255, 0.3) 0, transparent 50%),
+                radial-gradient(at 0% 100%, rgba(216, 218, 221, 0.2) 0, transparent 50%);
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        .animate-float-delayed {
+            animation: float 7s ease-in-out infinite;
+            animation-delay: 1s;
+        }
+        .animate-float-slow {
+            animation: float 8s ease-in-out infinite;
+            animation-delay: 2s;
+        }
+
+        .text-slide-up {
+            animation: slideUp 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .portfolio-card:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-card:hover .portfolio-img {
+            transform: scale(1.05);
+        }
+
+        .urdu-text {
+            direction: rtl;
+            line-height: 2.2;
+        }
+
+        /* Carousel Styles */
+        .carousel-container {
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .carousel-item {
+            flex: 0 0 100%;
+        }
+        @media (min-width: 768px) {
+            .carousel-item {
+                flex: 0 0 calc(50% - 16px);
+                margin-right: 32px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .carousel-item {
+                flex: 0 0 calc(33.333% - 21.33px);
+                margin-right: 32px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden selection:bg-secondary-container selection:text-on-secondary-container">
+<nav class="fixed top-0 w-full z-50 backdrop-blur-xl border-b border-outline-variant/20 bg-glass-white/80 shadow-sm transition-all duration-300">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<a class="flex items-center gap-3 group" href="#">
+<img alt="Amit Manocha Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3stHPcuBEqD11nvNxItK30E_zLIohPjRHI3GJ_bVCBmJ8tKumRl8ic_8ioQiK6UcNXOPjLVW5mNsazjxbmW-eGJjypfU2FOBZ9ec6NkPvl40EXKS7DluDUyXrJdQ_NvbOgZPUb4iuXLWyN0TBmkRX0Fhern3jzF8yiBzIOuDNh8qjoQc1w55zWm2YnnTM1vSSOoV3PE-YxA4tYujHeb92Gqc1j5cdVq2DuQfhi99M7KmtO91oi0kEw3bdwkVP9ZKm4xptcDtOWg">
+<span class="font-headline-md text-2xl md:text-3xl font-bold text-primary">Amit Manocha</span>
+</a>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1" href="#">Home</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#portfolio">Portfolio</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#books">Books</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#poetry">Poetry</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#journey">Journey</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact</a>
+</div>
+<button class="hidden md:flex items-center justify-center px-6 py-2.5 rounded-full bg-primary text-on-primary font-body-md hover:bg-deep-navy transition-colors shadow-lg shadow-primary/10">
+            Let's Talk
+        </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main>
+<!-- Premium Split-Layout Cinematic Hero -->
+<section class="relative min-h-[90vh] lg:min-h-screen flex items-center mesh-gradient pt-24 overflow-hidden">
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-primary/5 rounded-full blur-[80px] pointer-events-none"></div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+<div class="flex flex-col items-start text-left order-2 lg:order-1">
+<div class="overflow-hidden mb-4">
+<span class="font-label-caps text-label-caps text-secondary tracking-[0.3em] uppercase block transform translate-y-0 opacity-100 transition-all duration-700">
+                            MULTIDISCIPLINARY CREATIVE ARTIST
+                        </span>
+</div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-2 leading-tight">
+                        Amit Manocha
+                    </h1>
+<div class="h-16 md:h-20 flex items-center mb-8">
+<span class="font-headline-xl text-headline-md md:text-headline-xl text-secondary transition-all duration-500 text-slide-up" id="hero-identity-slider" style="opacity: 0; transform: translateY(10px);">Urdu Poet</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-10 leading-relaxed">
+                        Crafting visual stories, poetic worlds, and artistic experiences through design, literature, motion, and music.
+                    </p>
+<div class="flex flex-wrap items-center gap-6">
+<button class="px-8 py-4 rounded-full bg-primary text-on-primary font-body-md hover:bg-deep-navy transition-all duration-300 shadow-[0_12px_24px_rgba(0,17,58,0.15)] hover:shadow-[0_16px_32px_rgba(0,17,58,0.25)] hover:-translate-y-0.5">
+                            Explore Portfolio
+                        </button>
+<button class="px-8 py-4 rounded-full border border-primary/20 text-primary font-body-md hover:bg-white/50 transition-all duration-300">
+                            Read My Journey
+                        </button>
+<a class="font-label-caps text-label-caps text-primary hover:text-secondary transition-colors py-2 group" href="#">
+                            View Literary Works <span class="inline-block transition-transform group-hover:translate-x-1">→</span>
+</a>
+</div>
+</div>
+<div class="relative order-1 lg:order-2 flex justify-center lg:justify-end py-12 lg:py-0">
+<div class="relative w-full max-w-[500px] aspect-[4/5] md:aspect-[3/4]">
+<div class="absolute inset-0 rounded-[2rem] overflow-hidden shadow-2xl z-10 border border-white/20">
+<img alt="Amit Manocha Portrait" class="w-full h-full object-cover transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3w3PhOs6hA5zZ-S7-wSsHzhyiIgGicXUoD73uolPX3IwwWR4VmUBvxURDy4GLNqXnilEsD0abmteeZx7mqhB4aaR1dk71hV1RFf-CJeh-pd8hBJxNdn-eEL6amiSqmGhmIiUh_LkOXySqfpY9DGg-O6yxWHlL-IKIBEgt-pZgMdthSCf9o2eK4GRPDVNbAzCECY3akxFngeL4s3dRE0Poesxruw25WhcI_A43FCS70HaII05WBf4Ht8VYBJi5dWElrcQegGn8vg">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
+</div>
+<div class="absolute -left-6 top-1/4 glass-card p-5 rounded-2xl z-20 animate-float max-w-[200px]">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<p class="text-sm font-semibold text-primary leading-tight">15+ Years Creative Experience</p>
+</div>
+</div>
+<div class="absolute -right-10 top-1/2 glass-card p-5 rounded-2xl z-20 animate-float-delayed max-w-[200px]">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+<p class="text-sm font-semibold text-primary leading-tight">Published Author &amp; Poet</p>
+</div>
+</div>
+<div class="absolute left-1/4 -bottom-6 glass-card p-5 rounded-2xl z-20 animate-float-slow max-w-[220px]">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">school</span>
+<p class="text-sm font-semibold text-primary leading-tight">Creative Mentor &amp; Educator</p>
+</div>
+</div>
+<div class="absolute -top-12 -right-12 w-48 h-48 bg-secondary-fixed-dim/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
+<div class="absolute -bottom-20 -left-20 w-64 h-64 bg-primary-container/10 rounded-full blur-3xl -z-10"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- JOURNEY SECTION RESTYLE: Blue Ribbon Style -->
+<section class="py-16 px-margin-mobile md:px-margin-desktop bg-primary relative z-10" id="journey">
+<div class="max-w-container-max mx-auto text-center">
+<div class="max-w-3xl mx-auto space-y-6">
+<span class="font-label-caps text-label-caps text-secondary-container uppercase tracking-widest">The Journey</span>
+<h2 class="font-headline-md text-headline-md md:text-headline-xl text-pure-white leading-tight">
+                    Empowering brands and individuals through artistic innovation and education.
+                </h2>
+<p class="font-body-md text-body-md text-on-primary-container/80 max-w-2xl mx-auto">
+                    With over 15 years of multidisciplinary experience blurring the lines between visual design, kinetic motion, and the written word, I build immersive narratives that resonate on a profoundly human level.
+                </p>
+</div>
+</div>
+</section><section class="py-16 px-margin-mobile md:px-margin-desktop bg-surface relative z-10 border-b border-outline-variant/10"><div class="max-w-container-max mx-auto"><div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500"><img src="https://lh3.googleusercontent.com/aida/ADBb0uiVe3R5q_X3GVga9JrOekIfSOJMHM8aLfT-a-Md_N4m9c-GvSSnl-A7fWwDd9YbERk04wFM5k11c4bnqs7PPHpH-1CfB5vmvNdseyKEZiTTdDyWk79gFoOs4DSx1PiX3XkzHBcgHlJRWODb43A_ynGN571XAJbiX0p0p4DHViuc0B7aaHdyEDhyPVzyY-txccNMBhiTmOVTYLO-wtwd25ogJyPAfIVXAWH08JdbLnbkwy9OVB-HM3wYDg" alt="Anand Diaries Logo" class="h-12 w-auto object-contain"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD62Vk2h_Mspu0_flHZXxlfvsrLUhLlJogbtwp2ia5gi173R61dQTzhEmQkXeeTvAjyVG7ZvMX_mF8THdCpnEjbffJQPZhscZbpOMdRJNnEcPPEPRSf3uL4Wz56XHlSdVXpBhKLBfRVLeJSDiQQDpI2_FJ7Kte8XGRwVnzSAJVCFn5Y3IAEbzfg5cBydHqWrqNOZUs-D5WkrQM9frsZF8XUQ5jT5PupB1164BQzq4oo2ifiCy5fZtW4pRwza-_gfsv9wfPpxf_pw" alt="Brand Decorator Logo" class="h-12 w-auto object-contain"></div></div></section>
+<!-- BOOKS & PUBLICATIONS SECTION -->
+<section class="py-stack-xl px-margin-mobile md:px-margin-desktop bg-surface-bright relative z-10" id="books">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.2em] mb-4 block">Literary Legacy</span>
+<h2 class="font-headline-xl text-headline-xl text-primary mb-4">Published Volumes</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Explore the latest releases across law, poetry, and philosophy.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Book 1 -->
+<div class="group flex flex-col items-center">
+<div class="relative mb-8 transition-transform duration-500 group-hover:-translate-y-4">
+<img alt="Decode the Divorce Industry" class="w-full h-auto max-w-[300px] shadow-2xl rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRcxKu9aTHdHRd5_QJTCwxNsot8Cr_eRjHWptmpdx5Zg0txyjZAt94VWJDsWXit1mL6hg26v8ltezOjxOkkFtghDlUx49LqICRME1jnRczYdS3TXO8osUH-qXkFVSIGxwAxS30yE25voR8NWoLDiB699ku3LSC0sXSxtfEAtLVnPMG-aS1vY901OdJ8dbDYn66e0uOcC9HzrDz_hzti2rKz4mf6rS7kNnPgN3_GYLEmWu42xtXR_LJelJYNy-VuC8ImNnCyq6ptA">
+<div class="absolute inset-0 rounded-lg shadow-inner pointer-events-none"></div>
+</div>
+<h3 class="font-headline-md text-2xl text-primary mb-2 text-center">Decode the Divorce Industry</h3>
+<div class="flex flex-wrap justify-center gap-3 mt-4">
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">AMAZON</button>
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">GOOGLE PLAY</button>
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">POTHI.COM</button>
+</div>
+</div>
+<!-- Book 2 -->
+<div class="group flex flex-col items-center">
+<div class="relative mb-8 transition-transform duration-500 group-hover:-translate-y-4">
+<img alt="Kafan Mein Lipti Shayari" class="w-full h-auto max-w-[300px] shadow-2xl rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHE-IIzH75Eef7lq0ook5atDGrp1rzfh2P9q-yP5Y1wMlaBmWfk6pLgFxd3qCkPXMhYF-iIqUswx8mw03JjONGCF_82-P5XyLUAn2US-iEtIsgi-P9r5YN4JBLZj-f9vBUC2jpOkEYAcxrdI27Cai_cOpE2WE9g0SsIlvDUvy8DpSwSx6eDoDcmD89DYB3E-_GOTn_b4Ta-NStedQHiBph7dNErnA3mlZ8xgFSLplxsaHQHtznx8af6l96ptm2qi-vFoDqgSCopQ">
+<div class="absolute inset-0 rounded-lg shadow-inner pointer-events-none"></div>
+</div>
+<h3 class="font-headline-md text-2xl text-primary mb-2 text-center">Kafan Mein Lipti Shayari</h3>
+<div class="flex flex-wrap justify-center gap-3 mt-4">
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">AMAZON</button>
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">GOOGLE PLAY</button>
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">POTHI.COM</button>
+</div>
+</div>
+<!-- Book 3 -->
+<div class="group flex flex-col items-center">
+<div class="relative mb-8 transition-transform duration-500 group-hover:-translate-y-4">
+<img alt="Deewan-e-Aziim" class="w-full h-auto max-w-[300px] shadow-2xl rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkJU3Gkga0iQDq6UE9Yc8ab4c7tQqDgkKqqmKkFH_B8BHQ-iAWHfXZUgC1Lv9z42bTIHy3Xl-oiO4SgZwWf32pfvYn-QowQVahws6HrICsOLEiXjUXTaouVcXI6kE052nWwAkd5lfIqhGaQstYIwxNb-SVRpVJ_1VJ1s0pes3QufA84nTxWaaUPegWVVgEOi_jX-Eom1EhAZbSJ1rj1IkujiAl-of_QuTdWgLcQ1uRF4ZLfv_kDo-0W8FKhVXlIWTFKxUpJOzbPg">
+<div class="absolute inset-0 rounded-lg shadow-inner pointer-events-none"></div>
+</div>
+<h3 class="font-headline-md text-2xl text-primary mb-2 text-center">Deewan-e-Aziim</h3>
+<div class="flex flex-wrap justify-center gap-3 mt-4">
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">AMAZON</button>
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">GOOGLE PLAY</button>
+<button class="px-4 py-2 text-[10px] font-label-caps border border-primary/10 rounded hover:bg-primary hover:text-white transition-colors">POTHI.COM</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- POETRY SHOWCASE SECTION -->
+<section class="py-stack-xl px-margin-mobile md:px-margin-desktop bg-surface-container relative z-10 overflow-hidden" id="poetry">
+<div class="absolute -right-24 top-0 text-primary/5 font-nastaleeq text-[400px] select-none pointer-events-none">عظیم</div>
+<div class="max-w-container-max mx-auto relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4 block">Literary Voice</span>
+<h2 class="font-headline-xl text-headline-xl text-primary mb-6">Poetic Expressions</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12">A delicate interplay of languages, capturing emotions that transcend translation.</p>
+<div class="urdu-text font-nastaleeq text-2xl md:text-3xl text-primary mb-12 border-r-4 border-secondary pr-8 py-4">
+                        انکی نگاہِ ناز سے، سجا سارا یہ منظر ہے<br>
+                        محبت کی متاعِ جاودانی، رحمت کا پیکر ہے<br>
+                        نا ممکن ہے کہ بن انکے مل جائے سکوں دل کو<br>
+                        وہی جانم، وہی دلبر، وہی محور، وہ رہبر ہے (2)<br>
+                        انکے ذکر سے ہی خوش نما ہو جاتی محفل ہے<br>
+                        انہی کی دید سے پر نور ہر ایک منزل ہے<br>
+                        انہی کی رحمتوں سے زندگی خوشگوار ہوتی ہے<br>
+                        انکی آمد سے ہی خارزارِ قلب میں بہار ہوتی ہے<br>
+                        سکونِ روح مل جائے میری اتنی ہی خواہش ہے<br>
+                        وہ رکھ لے قدموں میں مجھ کو بس اتنی گزارش ہے<br>
+                        نہ جنت کی طلب مجھ کو، نہ جہنم کا کوئی ڈر ہے<br>
+                        میرے تو ساقی کا میخانہ ہی میرا آخری گھر ہے<br>
+                        نا ممکن ہے کہ بن انکے مل جائے سکوں دل کو<br>
+                        وہی جانم، وہی دلبر، وہی محور، وہ رہبر ہے (2)<br>
+                        فریب و جال میں پڑنا نہیں اب اور دنیا کے<br>
+                        مجھے معلوم ہے سب رسم و راز دنیا کے<br>
+                        ہے انکے درشنوں کی آرزو، اب کچھ اور نہ چاہوں<br>
+                        عظیم، وصلِ رب انکی قربتِ یار ہی چاہوں
+                    </div>
+</div>
+<div class="glass-card p-10 rounded-2xl">
+<div class="space-y-6 text-on-surface-variant italic font-body-md text-lg leading-relaxed">
+<p class="">"Unki Nigaahein e naaz se, sajaa saara ye manzar hai...<br>
+                        Mohabbat ki mataa-e-jaavdaani, rehmat ka paikar hai...<br>
+                        Na mumkin hai ke bin unke mil jaaye sukoon dil ko...<br>
+                        Wahi jaanam, wahi دلبر، wahi mehvar, woh rehbar hai (2)"</p>
+<p class="">"Unke zikr se hi khush numa ho jaati mehfil hai...<br>
+                        Unhi ki deed se pur noor har ek manzil hai...<br>
+                        Unhi ki rehmato se zindagi khushgawaar hoti hai...<br>
+                        Unki aamad se hi khaarzaar-e-qalb mein bahaar hoti hai"</p>
+<p class="">"Sukoon-e-rooh mil jaaye میری اتنی ہی khwahish hai...<br>
+                        Woh rakh le kadmon mein mujh ko bas itni guzarish hai...<br>
+                        Na jannat ki talab mujh ko, na jahannum ka koi darr hai...<br>
+                        Mere to saaki ka maikhana hi mera aakhri ghar hai"</p>
+<div class="pt-8 border-t border-outline-variant/30">
+<p class="font-headline-md text-xl text-primary not-italic">Amit Kumar Manocha</p>
+<p class="font-label-caps text-label-caps text-secondary">A.K.A. Aziim Dehlvi</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PORTFOLIO SECTION (CAROUSEL RESTYLE) -->
+<section class="py-stack-xl px-margin-mobile md:px-margin-desktop bg-background overflow-hidden" id="portfolio">
+<div class="max-w-container-max mx-auto relative">
+<div class="text-center mb-16">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.2em] mb-4 block">Visual Narratives</span>
+<h2 class="font-display-lg-mobile md:text-display-lg text-primary mb-6">Selected Works</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">A curated collection of multidisciplinary design projects spanning branding, motion, and digital experiences.</p>
+</div>
+<!-- Navigation Controls -->
+<div class="flex items-center justify-between absolute top-1/2 -translate-y-1/2 left-0 right-0 z-30 pointer-events-none px-4 md:-mx-8">
+<button class="pointer-events-auto h-12 w-12 md:h-14 md:w-14 flex items-center justify-center rounded-full bg-white/80 border border-outline-variant/30 text-primary shadow-lg hover:bg-white transition-all transform hover:scale-110" id="prevBtn">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="pointer-events-auto h-12 w-12 md:h-14 md:w-14 flex items-center justify-center rounded-full bg-white/80 border border-outline-variant/30 text-primary shadow-lg hover:bg-white transition-all transform hover:scale-110" id="nextBtn">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+<div class="carousel-container overflow-hidden">
+<div class="carousel-track flex" id="carouselTrack" style="transform: translateX(0px);">
+<!-- Project 1 (IMAGE_9) -->
+<div class="carousel-item flex-shrink-0">
+<div class="portfolio-card relative rounded-lg overflow-hidden shadow-ambient bg-pure-white group cursor-pointer aspect-[3/4]">
+<img alt="Project 1" class="portfolio-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHkHw_ZyC0gqu6ohiG7_KvWB2eU9DkaWgxzx6xlmMfpS6nJCvCtqf0orP4iAQ6LIRVjJmjB2FAi2HrE2Q0vx8ABGWMClEaE3ExR11i6BgyZbUy0CRG7B6TZUUrjoRAV9sJhPFxFxETO_GxmeF89XTOiOualmCJtrxVyWH2q-gLabnmTPqJkg0Np3W2pgsiyZQqMdnWqE1gWKswjMs-j64e0WFXgwWXe4N62WI0mlzaH22VnSQHpYymyR-MUdbTm4womJxBvHonsw">
+<div class="portfolio-overlay absolute inset-0 bg-primary/80 opacity-0 transition-opacity duration-500 flex flex-col justify-end p-6">
+<span class="font-label-caps text-label-caps text-secondary-fixed mb-1 uppercase tracking-widest text-[10px]">Digital Product</span>
+<h3 class="font-headline-md text-xl text-pure-white">BookSeva</h3>
+</div>
+</div>
+</div>
+<!-- Project 2 (IMAGE_12) -->
+<div class="carousel-item flex-shrink-0">
+<div class="portfolio-card relative rounded-lg overflow-hidden shadow-ambient bg-pure-white group cursor-pointer aspect-[3/4]">
+<img alt="Project 2" class="portfolio-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD78d5M6Rhc-8Z78Pe3NpkGDsSdcDLe3z_umYMbmO2VIp1FPM5R3mvtLoLRRKu7OHSVptBrSntxJy-efxulXYBIm70l_U_sEYJgRcfi1ZrvVc0rothTFfZ3BVmVCh4DV7BVwPEbVBNWFQGHusv5jbETl42XJt5gUKjPwFK8jk7RSNZ_GSDTMCTsDz0yBhWmgOhRIjNpMHDLc5wUytIBmlxhHLTgCtdXr3cPjCC_8ikcjIMO9JLn2wnoTxTw4ldSlD-xzcNsG6r0dw">
+<div class="portfolio-overlay absolute inset-0 bg-primary/80 opacity-0 transition-opacity duration-500 flex flex-col justify-end p-6">
+<span class="font-label-caps text-label-caps text-secondary-fixed mb-1 uppercase tracking-widest text-[10px]">Branding</span>
+<h3 class="font-headline-md text-xl text-pure-white">IYC Business Conclave</h3>
+</div>
+</div>
+</div>
+<!-- Project 3 (IMAGE_10) -->
+<div class="carousel-item flex-shrink-0">
+<div class="portfolio-card relative rounded-lg overflow-hidden shadow-ambient bg-pure-white group cursor-pointer aspect-[3/4]">
+<img alt="Project 3" class="portfolio-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6cXCyTPYCxWZdXIlAtH1ffhrXZRGnlaiAdYKEjW2U0mrgzBJv6p55G-y2wIp3zS6N3gSh6CUrzB8k9sRzR2TpkXdGM-OJGTZfOxQ3WE0p0t69Ww5rpGmJQQKcH2QlbZQOiPkVOIYlwWcIySQ0E90TbdZaVntH-o0yqGpt7hbpTbLUN6ZMmcaJYkeTXg0ICbs6hGsdXsmjqYs3JEWikfFzAeHpcx6JT-RA6p28dXgC-tNU5-M26qsEKKnpj2gusvKZEjKLb2JsxA">
+<div class="portfolio-overlay absolute inset-0 bg-primary/80 opacity-0 transition-opacity duration-500 flex flex-col justify-end p-6">
+<span class="font-label-caps text-label-caps text-secondary-fixed mb-1 uppercase tracking-widest text-[10px]">Packaging</span>
+<h3 class="font-headline-md text-xl text-pure-white">Panasva Spices</h3>
+</div>
+</div>
+</div>
+<!-- Project 4 (IMAGE_13) -->
+<div class="carousel-item flex-shrink-0">
+<div class="portfolio-card relative rounded-lg overflow-hidden shadow-ambient bg-pure-white group cursor-pointer aspect-[3/4]">
+<img alt="Project 4" class="portfolio-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMkOXe5TczX5FJbzWLuWy0-Fmeqe7Wva4VqXCjMvVoevjG1Tu1OJ1xzhA_z3ugpT5c-RhB_4mJPyqeGrIOezG3W7qVuHRuw3JusoCzaABWRhjvQ1Oj5tasCQLAK4em4O7uVS0JdI_cEXkVNVpJsk2DJxpHvmSqkQ4CsAYWGpvXCLotP8_lYHdc6v69MLGmpr87C0b04Ryg4zmjUtbT34mpe7zlF2qxqPItUAkcdvFsh-dYudkdjGM8Dy7wIwhMNpC7QgOboiu1MA">
+<div class="portfolio-overlay absolute inset-0 bg-primary/80 opacity-0 transition-opacity duration-500 flex flex-col justify-end p-6">
+<span class="font-label-caps text-label-caps text-secondary-fixed mb-1 uppercase tracking-widest text-[10px]">Visual Identity</span>
+<h3 class="font-headline-md text-xl text-pure-white">Hosello</h3>
+</div>
+</div>
+</div>
+<!-- Project 5 (IMAGE_11) -->
+<div class="carousel-item flex-shrink-0">
+<div class="portfolio-card relative rounded-lg overflow-hidden shadow-ambient bg-pure-white group cursor-pointer aspect-[3/4]">
+<img alt="Project 5" class="portfolio-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdpwxWhCrjb5-wCVxMrjPiper4CFgfieN80g9MafOMxPWOAIDBa9wJdhSv9nw2B4GuT8NvFPl_YRoj56jYBr4AKNhi3mb0M4E63s06WPt1UTFgUCC2DMHs3EdBN1IpqckTumt83Vz5iGd0Sg8_ccVAJBoIi6uKSbNFy9tWTseGHi3d4-wPdKZneuGeuRFb-TdGF-ZlXtW3YwL9pqXUmygmBWsFj153gmzSladAnsOAW-AwWGgKwtWLkvhL903Ld_OQJjD7Sq5KLg">
+<div class="portfolio-overlay absolute inset-0 bg-primary/80 opacity-0 transition-opacity duration-500 flex flex-col justify-end p-6">
+<span class="font-label-caps text-label-caps text-secondary-fixed mb-1 uppercase tracking-widest text-[10px]">Event Design</span>
+<h3 class="font-headline-md text-xl text-pure-white">Jewellers Premier League</h3>
+</div>
+</div>
+</div>
+<!-- Project 6 (IMAGE_14) -->
+<div class="carousel-item flex-shrink-0">
+<div class="portfolio-card relative rounded-lg overflow-hidden shadow-ambient bg-pure-white group cursor-pointer aspect-[3/4]">
+<img alt="Project 6" class="portfolio-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIPMK1su1NSBIRFOSoWuBqKW54YgODXGBInHJfZ4Jo38P34ajfcC5YFUACicIxwfWU2WVo1d2I1BaB5Kilu61vqBebvW-UZso_GCe52YbO8UhG9tj_S18Ac4L_89jaOummMyedLRypWANdfesGurkPnhA_rt63P9zvwjFB0rdB7tGJyXCtIHUfAyRmZTx_zhOBz8R2F3waU9x3ztCGSIpGsCxJH6ysrFmvD-jLTOZGaVjTSlbvJ4WP4KUJc3C6ivUJRCQU47a3HA">
+<div class="portfolio-overlay absolute inset-0 bg-primary/80 opacity-0 transition-opacity duration-500 flex flex-col justify-end p-6">
+<span class="font-label-caps text-label-caps text-secondary-fixed mb-1 uppercase tracking-widest text-[10px]">Social Impact</span>
+<h3 class="font-headline-md text-xl text-pure-white">Aksha Foundation</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Filter Chips -->
+<div class="flex flex-wrap justify-center gap-4 mt-16">
+<button class="font-label-caps text-label-caps bg-primary text-on-primary px-6 py-3 rounded-full uppercase tracking-widest text-[10px]">All Works</button>
+<button class="font-label-caps text-label-caps bg-surface-container-low text-on-surface px-6 py-3 rounded-full hover:bg-surface-container-high transition-colors uppercase tracking-widest text-[10px]">Branding</button>
+<button class="font-label-caps text-label-caps bg-surface-container-low text-on-surface px-6 py-3 rounded-full hover:bg-surface-container-high transition-colors uppercase tracking-widest text-[10px]">Motion Graphics</button>
+<button class="font-label-caps text-label-caps bg-surface-container-low text-on-surface px-6 py-3 rounded-full hover:bg-surface-container-high transition-colors uppercase tracking-widest text-[10px]">Digital Design</button>
+</div>
+</div>
+</section>
+<!-- Experience & Stats -->
+<section class="pb-stack-xl px-margin-mobile md:px-margin-desktop bg-background relative z-10">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="glass-card rounded-2xl p-8 flex flex-col justify-center items-start group hover:-translate-y-1 transition-transform duration-500">
+<span class="material-symbols-outlined text-secondary mb-4 text-3xl" style="font-variation-settings: 'FILL' 1;">hourglass_top</span>
+<h3 class="font-display-lg-mobile text-display-lg-mobile text-primary mb-2 group-hover:text-secondary transition-colors">15+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-medium">Years Experience</p>
+</div>
+<div class="glass-card rounded-2xl p-8 flex flex-col justify-center items-start group hover:-translate-y-1 transition-transform duration-500">
+<span class="material-symbols-outlined text-secondary mb-4 text-3xl" style="font-variation-settings: 'FILL' 1;">palette</span>
+<h3 class="font-display-lg-mobile text-display-lg-mobile text-primary mb-2 group-hover:text-secondary transition-colors">500+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-medium">Creative Projects</p>
+</div>
+<div class="glass-card rounded-2xl p-8 flex flex-col justify-center items-start group hover:-translate-y-1 transition-transform duration-500">
+<span class="material-symbols-outlined text-secondary mb-4 text-3xl" style="font-variation-settings: 'FILL' 1;">school</span>
+<h3 class="font-display-lg-mobile text-display-lg-mobile text-primary mb-2 group-hover:text-secondary transition-colors">2000+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-medium">Students Taught</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="w-full py-stack-xl border-t border-outline-variant/10 bg-surface-bright transition-all duration-500 flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="contact">
+<div class="mb-8 flex flex-col items-center gap-4"><img alt="Amit Manocha Logo" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3stHPcuBEqD11nvNxItK30E_zLIohPjRHI3GJ_bVCBmJ8tKumRl8ic_8ioQiK6UcNXOPjLVW5mNsazjxbmW-eGJjypfU2FOBZ9ec6NkPvl40EXKS7DluDUyXrJdQ_NvbOgZPUb4iuXLWyN0TBmkRX0Fhern3jzF8yiBzIOuDNh8qjoQc1w55zWm2YnnTM1vSSOoV3PE-YxA4tYujHeb92Gqc1j5cdVq2DuQfhi99M7KmtO91oi0kEw3bdwkVP9ZKm4xptcDtOWg"><h2 class="font-headline-md text-headline-md text-primary">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2><p class="font-body-md text-on-surface-variant max-w-2xl">Collaborating at the intersection of design and literature. Amit Manocha is my creative professional name for design and strategy, while Aziim Dehlvi is my literary pen name for poetry and prose.</p></div>
+<div class="flex space-x-6 mb-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">LinkedIn</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Instagram</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Threads</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">© 2026 Amit Manocha. All rights reserved.</p>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Hero identities slider
+        const roles = [
+            "Graphic Designer", 
+            "Motion Artist", 
+            "Author", 
+            "Urdu Poet", 
+            "Lyricist", 
+            "Creative Storyteller", 
+            "Educator"
+        ];
+        const sliderElement = document.getElementById('hero-identity-slider');
+        let currentIndex = 0;
+
+        function updateSlider() {
+            if(!sliderElement) return;
+            sliderElement.classList.remove('text-slide-up');
+            sliderElement.style.opacity = '0';
+            sliderElement.style.transform = 'translateY(-10px)';
+            
+            setTimeout(() => {
+                currentIndex = (currentIndex + 1) % roles.length;
+                sliderElement.textContent = roles[currentIndex];
+                sliderElement.style.transform = 'translateY(10px)';
+                requestAnimationFrame(() => {
+                    sliderElement.classList.add('text-slide-up');
+                });
+            }, 500);
+        }
+        setInterval(updateSlider, 3500);
+
+        // Carousel Logic
+        const track = document.getElementById('carouselTrack');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let scrollPosition = 0;
+
+        function updateCarousel() {
+            const containerWidth = track.parentElement.offsetWidth;
+            const itemWidth = track.children[0].offsetWidth + 32; // item + margin
+            const maxScroll = track.scrollWidth - containerWidth;
+
+            nextBtn.onclick = () => {
+                scrollPosition += itemWidth;
+                if (scrollPosition > maxScroll) scrollPosition = maxScroll;
+                track.style.transform = `translateX(-${scrollPosition}px)`;
+            };
+
+            prevBtn.onclick = () => {
+                scrollPosition -= itemWidth;
+                if (scrollPosition < 0) scrollPosition = 0;
+                track.style.transform = `translateX(-${scrollPosition}px)`;
+            };
+        }
+
+        updateCarousel();
+        window.addEventListener('resize', () => {
+            scrollPosition = 0;
+            track.style.transform = `translateX(0)`;
+            updateCarousel();
+        });
+    });
+</script>
+
+
+</body></html>
+
+<!-- Books & Poetry Showcase -->
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Books &amp; Poetry | Amit Manocha (Aziim Dehlvi)</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Montserrat:wght@600;700&amp;family=Noto+Nastaliq+Urdu:wght@400;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#e0e3e6",
+                    "on-background": "#191c1e",
+                    "on-surface": "#191c1e",
+                    "on-error": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "secondary-container": "#9ae1ff",
+                    "on-secondary-container": "#09657f",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed-dim": "#89d0ed",
+                    "inverse-primary": "#b3c5ff",
+                    "surface-variant": "#e0e3e6",
+                    "on-primary-fixed": "#00174a",
+                    "error": "#ba1a1a",
+                    "background": "#f7f9fc",
+                    "surface-container": "#eceef1",
+                    "surface-container-low": "#f2f4f7",
+                    "outline-variant": "#c5c6d2",
+                    "primary-fixed": "#dbe1ff",
+                    "surface-tint": "#435b9f",
+                    "deep-navy": "#001A4D",
+                    "surface-bright": "#f7f9fc",
+                    "tertiary-fixed": "#ffdad5",
+                    "surface-dim": "#d8dadd",
+                    "on-secondary-fixed": "#001f29",
+                    "outline": "#757682",
+                    "on-primary-container": "#758dd5",
+                    "tertiary-fixed-dim": "#ffb4a9",
+                    "inverse-surface": "#2d3133",
+                    "on-primary": "#ffffff",
+                    "glass-white": "rgba(255, 255, 255, 0.7)",
+                    "on-primary-fixed-variant": "#2a4386",
+                    "surface": "#f7f9fc",
+                    "secondary": "#0c6780",
+                    "inverse-on-surface": "#eff1f4",
+                    "surface-container-high": "#e6e8eb",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#5a0001",
+                    "primary-container": "#002366",
+                    "tertiary": "#330000",
+                    "error-container": "#ffdad6",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#f35f4e",
+                    "on-secondary-fixed-variant": "#004d62",
+                    "on-tertiary-fixed-variant": "#8d150e",
+                    "primary-fixed-dim": "#b3c5ff",
+                    "on-tertiary-fixed": "#410000",
+                    "secondary-fixed": "#baeaff",
+                    "pure-white": "#FFFFFF",
+                    "on-surface-variant": "#444650",
+                    "primary": "#00113a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "stack-xl": "120px",
+                    "gutter": "32px",
+                    "margin-mobile": "24px",
+                    "margin-desktop": "80px",
+                    "container-max": "1440px"
+            },
+            "fontFamily": {
+                    "display-lg": ["Playfair Display"],
+                    "body-lg": ["Inter"],
+                    "label-caps": ["Montserrat"],
+                    "headline-md": ["Playfair Display"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "headline-xl": ["Playfair Display"],
+                    "body-md": ["Inter"],
+                    "nastaliq": ["Noto Nastaliq Urdu", "serif"]
+            },
+            "fontSize": {
+                    "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["20px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                    "display-lg-mobile": ["48px", {"lineHeight": "1.1", "fontWeight": "700"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .hero-slide {
+            opacity: 0;
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+            position: absolute;
+            inset: 0;
+            transform: scale(1.05);
+        }
+        .hero-slide.active {
+            opacity: 1;
+            transform: scale(1);
+            z-index: 10;
+        }
+        .text-reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s ease-out 0.3s;
+        }
+        .active .text-reveal {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-glass-white/90 dark:bg-primary/70 backdrop-blur-xl border-b border-outline-variant/20 shadow-sm transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto">
+<a class="flex items-center gap-3 group" href="#"><img alt="Amit Manocha Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd4IG71Z796VAv0zTlNjNixZ2qJQcQHzeLdLkYFSPBvyAkvONGJPoZXOLqEvJ9BdMRoH1BI7b55z0dJowxT47bEpgDcjaEBCBWzt-L56z74Y5ILcmXyetSw-_BAqW8qeATV0IHf_OUayt1uUlzv6XDMvsMUd-HezwpSyuN_wBjPtkeqEksJwgsBhEf6KgbHmuznLH2j7NT-K0daBNgiFekr2zTLFJ_xpBflMNucDtV-xbv9DcFMxQF2JxfJ6TontjVtEwl5sXjVg"><span class="font-headline-md text-2xl md:text-3xl font-bold text-primary dark:text-primary-fixed">Amit Manocha</span></a>
+<!-- Desktop Nav -->
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md" href="#">Portfolio</a>
+<a class="text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 font-body-md text-body-md" href="#">Books</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md" href="#">Poetry</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md" href="#">Journey</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md" href="#">Contact</a>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full hover:opacity-80 transition-opacity font-body-md text-body-md">Work with Amit Manocha</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Hero Section: Cinematic Slideshow -->
+<header class="relative h-[100vh] w-full overflow-hidden bg-primary">
+<div class="relative h-full w-full" id="hero-slider">
+<!-- Slide 1 -->
+<div class="hero-slide" data-index="0">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyBuSWnqDYDwxJfDvC5GgoGQL_AMga1AJAqbgbwUtI_IBFXw5jLB2NxoMuPAKfPrF5pvVXQcmHHAinZbcYbDVEceh_TyqNADBRNAFjXTuzbNpqN3ZKBu_Rqg0y7tYUrTWNeG00NOIU5s8Jcj8gWBI5B64YcLTqyay059L3MTsyMS5rg5lbY2DZqQSo5wGI2SPXwT1NtrzLstomt84mYhnHXYU_V_kSB5WOIZ_DwvT2eAkDlCLNW2-b7WrEnR2PZRO1YPpUZ1vd8g');"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/40 to-transparent"></div>
+<div class="relative z-20 h-full flex items-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="max-w-3xl text-reveal">
+<span class="font-label-caps text-label-caps text-secondary-container mb-4 block tracking-[0.3em] uppercase">Legal &amp; Social Analysis</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-white mb-6">Decode the Divorce Industry in India</h1>
+<p class="font-body-lg text-body-lg text-white/80 mb-10 max-w-xl">A critical, investigative look into the intricate legal and social landscapes of divorce, offering clarity in moments of complexity.</p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-white text-primary px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform" href="#">View Book</a>
+<a class="border border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-colors" href="#">Read Author's Note</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 2 -->
+<div class="hero-slide" data-index="1">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDb_gJJNpoBpqZ_m_gvM2oychO2mR9JDVSv24Lp8opuQhkhXiMb0gh2djJADT0dPU_Yo8crL92SIO1yJBPc3gdQBzxGOcmztASBYuEPnViNy5egoWVss7neksRminRm9RM-4HpmLdoxshEsi_GKcPldLCcQmGgY3yxmSm38AAXxIEthTlWdE8l8lhuc_ABfOcBfsI1SDjVwd2k1P_dhl4IFZ3N3iGxaVr0CqNvRuNkGYo0sLLFEmO7Wfa3p1siAgyxRMtigJBOy_A');"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-tertiary/80 via-tertiary/40 to-transparent"></div>
+<div class="relative z-20 h-full flex items-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="max-w-3xl text-reveal">
+<span class="font-label-caps text-label-caps text-tertiary-fixed mb-4 block tracking-[0.3em] uppercase">The Soul of Verse</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-white mb-6">Kafan Mein Lipti Shayari</h1>
+<p class="font-body-lg text-body-lg text-white/80 mb-10 max-w-xl">An evocative collection exploring mortality, love, and the ethereal beauty of the human condition through Urdu poetry.</p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-white text-tertiary px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform" href="#">Explore Verse</a>
+<a class="border border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-colors" href="#">Read Poetry</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 3 -->
+<div class="hero-slide active" data-index="2">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB4ZzTzfxjtTMj8dt1nWvFimcXQzr-V1b_Fc5yhPga0syS9gcwqq9bCLYES7mDPhXjQVaMVe0a0l6ltAV8h5I4LngQZ4196NF4Y3b_p0l-gAuliuNmTAXPSP0EdToAAVZQANlQkgMxKPhKO5osoS7sk9Z7J04RoojnHs_17QNWL4Y9Mb-ve9qbahRwE5y4I-0YWmcQj706l07aYvAtuIHC5VKNoxo604cdrcf-EFptbSV3WU45bU2-Hp-Qba1SsojxusVzCSf0R1A');"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/40 to-transparent"></div>
+<div class="relative z-20 h-full flex items-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="max-w-3xl text-reveal">
+<span class="font-label-caps text-label-caps text-primary-fixed mb-4 block tracking-[0.3em] uppercase">Literary Heritage</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-white mb-6">Deewan-e-Aziim</h1>
+<p class="font-body-lg text-body-lg text-white/80 mb-10 max-w-xl">A comprehensive masterpiece of contemporary Ghazals and Nazms reflecting the deep legacy of 'Aziim Dehlvi'.</p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-white text-primary px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform" href="#">View Collection</a>
+<a class="border border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-colors" href="#">Author Journey</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Controls -->
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 flex items-center gap-4">
+<button class="text-white hover:text-secondary-container transition-colors p-2" id="prev-slide">
+<span class="material-symbols-outlined text-4xl">chevron_left</span>
+</button>
+<div class="flex gap-3" id="slide-dots">
+<div class="dot w-3 h-3 rounded-full border-2 border-white/50 cursor-pointer bg-transparent" data-target="0"></div>
+<div class="dot w-3 h-3 rounded-full border-2 border-white/50 cursor-pointer bg-transparent" data-target="1"></div>
+<div class="dot w-3 h-3 rounded-full border-2 border-white/50 cursor-pointer bg-white" data-target="2"></div>
+</div>
+<button class="text-white hover:text-secondary-container transition-colors p-2" id="next-slide">
+<span class="material-symbols-outlined text-4xl">chevron_right</span>
+</button>
+</div>
+</header>
+<!-- Books Showcase Section -->
+<section class="py-stack-xl px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="books">
+<div class="mb-16">
+<h2 class="font-headline-xl text-headline-xl text-primary mb-4">Authored Works</h2>
+<div class="w-24 h-1 bg-secondary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Book 1: Decode the Divorce Industry -->
+<div class="group">
+<div class="relative overflow-hidden rounded-[24px] shadow-lg mb-8 transition-all duration-500 group-hover:-translate-y-4">
+<img alt="Decode the Divorce Industry in India by Amit Kumar Manocha" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0ujADbbTGx5LXbpDZyrJCfoTq29Pf7OJICno4sYis3ECUYqnuYciGsIMXZMC4rM80_5gm2xMXHUr4SjjjFW9zd5V6AfIDZvDiUZ5b2rX0-ePsxA5S9SF3bG8r7mvflhh8WkZ8Erf0dX7f596gL1JLqUIeoejovBaLk16lHHoNpJWJ0v5Ih4tKF6w9SJMTm0YFz5OiMWVPMLJ4bEj1ev_Op36eJDot3UTzSGnG-AgCnSjaGzAg5s3GaOm">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<button class="bg-pure-white text-primary px-6 py-3 rounded-full font-label-caps text-label-caps flex items-center gap-2">
+                            PREVIEW BOOK <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Decode the Divorce Industry</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">A critical analysis of the legal and social landscape of divorce in India, offering clarity and strategic insight.</p>
+<span class="inline-block px-4 py-1 bg-surface-container-highest text-secondary font-label-caps text-[10px] rounded-full">LEGAL / SOCIAL COMMENTARY</span>
+</div>
+<!-- Book 2: Kafan Mein Lipti Shayari -->
+<div class="group">
+<div class="relative overflow-hidden rounded-[24px] shadow-lg mb-8 transition-all duration-500 group-hover:-translate-y-4">
+<img alt="Kafan Mein Lipti Shayari by Amit Kumar Manocha" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uhsmK-_RgibezBGFbqpdqDSET_b2WH5_owg-mwwg7GnWoJ_4ckdTsTlz6RTeogKWNhU9eTXz_m35CvJTqr1lrhfiQVorve3VnL43il3l1KrU2u2glFADhXUOlWsEpu3s_D8c8AcDUUjNy3ARl-deKAZA9Kig8HLSO7c8seu3T68mbUzqiWSqEC6BBSfizpuNZtvJ0rOPo-tYF8BDWxFtq_F4JqOqkMI9u5U7ee_0lgfj3wPAKsRbCqhzQ">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<button class="bg-pure-white text-primary px-6 py-3 rounded-full font-label-caps text-label-caps flex items-center gap-2">
+                            PREVIEW BOOK <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Kafan Mein Lipti Shayari</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">An evocative collection of Urdu poetry exploring the themes of mortality, love, and the human condition.</p>
+<span class="inline-block px-4 py-1 bg-surface-container-highest text-secondary font-label-caps text-[10px] rounded-full">URDU POETRY</span>
+</div>
+<!-- Book 3: Deewan-e-Aziim -->
+<div class="group">
+<div class="relative overflow-hidden rounded-[24px] shadow-lg mb-8 transition-all duration-500 group-hover:-translate-y-4">
+<img alt="Deewan-e-Aziim by Amit Kumar Manocha" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0ugbe5e4Tg_pWTSTXzFbsQ9dwI-maD5c8mxNjm97gDJCwIPCKtRMivoGMe7NjH5g3-dwF_RnqmNoA9wPRsUtdLnBVxRb0KxArzVz-Mkh56k75-gPTJdi2wwvYIMlcdsoi-rPppE0HWlLBCcSMEW17PvpoEdidnY8fmwwdLW1KLjWQy9AIJ_qozx_RXbEP6hOkhXNWJztNpCyhe8q4RzEn7QLYOVJT38yQPeYXh64g-k-Deh99iAKPtlT">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<button class="bg-pure-white text-primary px-6 py-3 rounded-full font-label-caps text-label-caps flex items-center gap-2">
+                            PREVIEW BOOK <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Deewan-e-Aziim</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">A comprehensive collection of Ghazals and Nazms reflecting the pseudonym 'Aziim Dehlvi' and his literary legacy.</p>
+<span class="inline-block px-4 py-1 bg-surface-container-highest text-secondary font-label-caps text-[10px] rounded-full">CONTEMPORARY GHAZALS</span>
+</div>
+</div>
+</section>
+<!-- Poetry Highlight Section -->
+<section class="bg-surface-container py-stack-xl" id="poetry">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<!-- Urdu Content -->
+<div class="order-2 lg:order-1 glass-card p-10 md:p-16 rounded-[40px] shadow-2xl relative">
+<div class="absolute -top-6 -left-6 w-16 h-16 bg-primary text-on-primary flex items-center justify-center rounded-2xl rotate-12">
+<span class="material-symbols-outlined text-[32px]">format_quote</span>
+</div>
+<div class="mb-12 text-right">
+<h4 class="font-label-caps text-label-caps text-secondary mb-6 tracking-[0.2em]">NASTALEEQ</h4>
+<div class="font-nastaliq text-[32px] md:text-[42px] leading-[2] text-primary space-y-4" dir="rtl">
+                            انکی نگاہِ ناز سے، گھائل ہوئے ہیں ہم<br>
+                            اُس انجمن کے فیض سے، قائل ہوئے ہیں ہم
+                        </div>
+</div>
+<div class="pt-12 border-t border-outline-variant/30">
+<h4 class="font-label-caps text-label-caps text-secondary mb-6 tracking-[0.2em]">ROMAN URDU</h4>
+<div class="font-headline-md text-[24px] md:text-[28px] italic text-primary/80 leading-relaxed">
+                            "Unki Nigaahein e naaz se, ghayal hue hain hum<br>
+                            Us anjuman ke faiz se, qaayal hue hain hum"
+                        </div>
+</div>
+</div>
+<!-- Text Content -->
+<div class="order-1 lg:order-2">
+<span class="font-label-caps text-label-caps text-secondary mb-4 block tracking-widest uppercase">Featured Verse</span>
+<h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8">Unki Nigaahein <br>e naaz se</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 leading-relaxed">
+                        A piece that captures the essence of classic Urdu romanticism, where a single glance holds the power of transformation. This couplet reflects the depth of 'Aziim Dehlvi's' poetic journey.
+                    </p>
+<div class="flex items-center gap-6">
+<div class="w-16 h-[1px] bg-primary"></div>
+<p class="font-headline-md text-headline-md text-primary">Aziim Dehlvi</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Literary Philosophy (Bento Grid Style) -->
+<section class="py-stack-xl px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 grid-rows-none md:grid-rows-2 gap-8 h-auto md:h-[600px]">
+<!-- Large Focus Card -->
+<div class="md:col-span-8 md:row-span-2 bg-primary text-on-primary p-12 rounded-[32px] flex flex-col justify-end relative overflow-hidden">
+<div class="absolute top-0 right-0 p-12 opacity-10">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">book_5</span>
+</div>
+<h3 class="font-display-lg-mobile text-display-lg-mobile md:text-[56px] mb-6 relative z-10">Beyond the Written Word</h3>
+<p class="font-body-lg text-body-lg text-on-primary/70 max-w-xl relative z-10">"My writing is a bridge between the clinical precision of the law and the fluid emotionality of the heart. One seeks justice, the other seeks peace."</p>
+</div>
+<!-- Smaller Context Cards -->
+<div class="md:col-span-4 bg-surface-container-high p-8 rounded-[32px] flex flex-col justify-center border border-outline-variant/10">
+<span class="material-symbols-outlined text-secondary mb-4 text-[40px]">history_edu</span>
+<h4 class="font-headline-md text-headline-md text-primary mb-2">Legacy</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Carrying forward the rich tradition of Dehlvi literature in a modern context.</p>
+</div>
+<div class="md:col-span-4 bg-secondary text-on-secondary p-8 rounded-[32px] flex flex-col justify-center">
+<span class="material-symbols-outlined mb-4 text-[40px]">ink_pen</span>
+<h4 class="font-headline-md text-headline-md mb-2">Duality</h4>
+<p class="font-body-md text-body-md text-on-secondary/80">Amit Manocha by day, Aziim Dehlvi by soul. A harmonious split between logic and lyricism.</p>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="py-stack-xl bg-primary-container text-on-primary-container px-margin-mobile md:px-margin-desktop">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="font-headline-xl text-headline-xl text-on-primary mb-8">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2>
+<p class="font-body-lg text-body-lg text-on-primary/80 mb-12">
+            Whether it's a legal discourse or a poetic collaboration, I bring a unique perspective shaped by my dual identity. Amit Manocha represents my legal expertise, while Aziim Dehlvi is my literary persona dedicated to the art of Urdu verse.
+        </p>
+<a class="inline-block bg-primary text-on-primary px-10 py-5 rounded-full font-headline-md text-body-md hover:bg-white hover:text-primary transition-all duration-300 shadow-xl" href="#">
+            Start a Conversation
+        </a>
+</div>
+</section>
+<footer class="w-full py-stack-xl border-t border-outline-variant/10 bg-surface-bright transition-all duration-500 flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="contact"><div class="mb-8 flex flex-col items-center gap-4"><img alt="Amit Manocha Logo" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd4IG71Z796VAv0zTlNjNixZ2qJQcQHzeLdLkYFSPBvyAkvONGJPoZXOLqEvJ9BdMRoH1BI7b55z0dJowxT47bEpgDcjaEBCBWzt-L56z74Y5ILcmXyetSw-_BAqW8qeATV0IHf_OUayt1uUlzv6XDMvsMUd-HezwpSyuN_wBjPtkeqEksJwgsBhEf6KgbHmuznLH2j7NT-K0daBNgiFekr2zTLFJ_xpBflMNucDtV-xbv9DcFMxQF2JxfJ6TontjVtEwl5sXjVg"><h2 class="font-headline-md text-headline-md text-primary">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2><p class="font-body-md text-on-surface-variant max-w-2xl">Collaborating at the intersection of design and literature. Amit Manocha is my creative professional name for design and strategy, while Aziim Dehlvi is my literary pen name for poetry and prose.</p></div><div class="flex flex-wrap justify-center gap-6 mb-8"><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">LinkedIn</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Instagram</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Threads</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a></div><p class="font-body-md text-body-md text-on-surface-variant">© 2026 Amit Manocha. All rights reserved.</p></footer>
+<script>
+    // Hero Slideshow Logic
+    const slides = document.querySelectorAll('.hero-slide');
+    const dots = document.querySelectorAll('.dot');
+    const nextBtn = document.getElementById('next-slide');
+    const prevBtn = document.getElementById('prev-slide');
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            dots[i].classList.remove('bg-white');
+            dots[i].classList.add('bg-transparent');
+        });
+        
+        currentSlide = (index + slides.length) % slides.length;
+        slides[currentSlide].classList.add('active');
+        dots[currentSlide].classList.add('bg-white');
+        dots[currentSlide].classList.remove('bg-transparent');
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+
+    function startAutoPlay() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 6000);
+    }
+
+    nextBtn.addEventListener('click', () => {
+        nextSlide();
+        startAutoPlay();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        prevSlide();
+        startAutoPlay();
+    });
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            showSlide(index);
+            startAutoPlay();
+        });
+    });
+
+    startAutoPlay();
+
+    // Scroll effect for Navbar
+    window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 50) {
+            nav.classList.add('py-4', 'shadow-md');
+            nav.classList.remove('py-6');
+        } else {
+            nav.classList.add('py-6');
+            nav.classList.remove('py-4', 'shadow-md');
+        }
+    });
+</script>
+
+
+</body></html>
+
+<!-- Amit Manocha - The Creative Journey -->
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Journey &amp; Contact | Amit Manocha (Aziim Dehlvi)</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Inter:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e0e3e6",
+                        "on-background": "#191c1e",
+                        "on-surface": "#191c1e",
+                        "on-error": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#9ae1ff",
+                        "on-secondary-container": "#09657f",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed-dim": "#89d0ed",
+                        "inverse-primary": "#b3c5ff",
+                        "surface-variant": "#e0e3e6",
+                        "on-primary-fixed": "#00174a",
+                        "error": "#ba1a1a",
+                        "background": "#f7f9fc",
+                        "surface-container": "#eceef1",
+                        "surface-container-low": "#f2f4f7",
+                        "outline-variant": "#c5c6d2",
+                        "primary-fixed": "#dbe1ff",
+                        "surface-tint": "#435b9f",
+                        "deep-navy": "#002366",
+                        "surface-bright": "#f7f9fc",
+                        "tertiary-fixed": "#ffdad5",
+                        "surface-dim": "#d8dadd",
+                        "on-secondary-fixed": "#001f29",
+                        "outline": "#757682",
+                        "on-primary-container": "#758dd5",
+                        "tertiary-fixed-dim": "#ffb4a9",
+                        "inverse-surface": "#2d3133",
+                        "on-primary": "#ffffff",
+                        "glass-white": "rgba(255, 255, 255, 0.7)",
+                        "on-primary-fixed-variant": "#2a4386",
+                        "surface": "#f7f9fc",
+                        "secondary": "#0c6780",
+                        "inverse-on-surface": "#eff1f4",
+                        "surface-container-high": "#e6e8eb",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#5a0001",
+                        "primary-container": "#002366",
+                        "tertiary": "#330000",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-container": "#f35f4e",
+                        "on-secondary-fixed-variant": "#004d62",
+                        "on-tertiary-fixed-variant": "#8d150e",
+                        "primary-fixed-dim": "#b3c5ff",
+                        "on-tertiary-fixed": "#410000",
+                        "secondary-fixed": "#baeaff",
+                        "pure-white": "#FFFFFF",
+                        "on-surface-variant": "#444650",
+                        "primary": "#002366"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-xl": "120px",
+                        "gutter": "32px",
+                        "margin-mobile": "24px",
+                        "margin-desktop": "80px",
+                        "container-max": "1440px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "body-lg": ["Inter"],
+                        "label-caps": ["Montserrat"],
+                        "headline-md": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "headline-xl": ["Playfair Display"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["72px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["20px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "600" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "500" }],
+                        "display-lg-mobile": ["48px", { "lineHeight": "1.1", "fontWeight": "700" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        .timeline-line {
+            background: linear-gradient(to bottom, transparent, #002366 15%, #002366 85%, transparent);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-glass-white dark:bg-primary/70 backdrop-blur-xl border-b border-outline-variant/20 shadow-sm transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+<img alt="Amit Manocha Logo" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwjEcTlj55WwEo9u5LgIx5NOkchKuTJnp6_01FX8D6FLsAUjiU7wy8pQypF_aZpwPI6GJS5JS5P_Ulw2_MvECITNNb7Vt3RIXre-TWuyFq9B_4H6dhDWary2JZcnP_2ULiayVKgqB9gMfn8s61ZsTOG8VsXWUxln_x9n1XBO9P450A9FuTIUmSTSg8tBzjGIcCq2_8nrJF-y9IOw5ecDn1ae9USEqTJ087R2Ooks8XWv80p_sayqeGLOg-KJJ5bHCIRs6l2d9iQ">
+<a class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed hidden sm:block" href="#">Amit Manocha</a>
+</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Home</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Portfolio</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Books</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Poetry</a>
+<a class="font-body-md text-body-md text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1" href="#">Journey</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full font-body-md hover:opacity-80 transition-opacity">
+            Let's Talk
+        </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl">
+<div class="flex flex-col items-center text-center">
+<span class="font-label-caps text-label-caps text-secondary mb-6 tracking-widest uppercase">The Evolution of a Creative</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8 max-w-4xl italic">A Journey Through Time.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Whether you're looking for cinematic design, poetic insight under my pen name Aziim Dehlvi, or a creative partnership with Amit Manocha, my door is always open. Let's craft something memorable through our shared vision.</p>
+</div>
+</section>
+<!-- Timeline Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl relative">
+<div class="absolute left-1/2 -translate-x-1/2 h-full w-0.5 timeline-line hidden md:block transition-all duration-1000 opacity-100 translate-y-0"></div>
+<div class="space-y-32 relative">
+<!-- 1. 1993 - Roots & Beginnings -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">1993</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Roots &amp; Beginnings</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Born in Delhi with family roots in Chiniot, a rich blend of cultures laid the foundation for a life steeped in heritage and artistic inquiry.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 flex justify-center md:justify-start pl-0 md:pl-12">
+<img alt="Roots &amp; Beginnings" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEylu-5IZ8WtmCiVAvvoLfOD5JmbNjiLBn-EzMFjzxwlYRrIFPW8hvxleJ6fB6xRy6rqRUW5kwtbVb78EXksuCCC097lJPz3HzBIdh9vfRO1DFrvBa8oqVIjwWL0z4EItK50S2t_8LIhmUQfNgCoMyrgd0R_tVrla8j4LmSaR_1WrF6Mu9X9f52C7uxuaon-2_HF9T5Lt5gqiqlxGFcw01QYqptDa5no_ICDjX2-bakhz53OPdefc_DMjGLH26nX7ydspgooeU7Q">
+</div>
+</div>
+<!-- 2. 2006 - Discovering Design -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2006</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Discovering Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Stepped into the world of graphic design, ignited by a profound passion for typography, visual hierarchy, and the art of branding.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1 flex justify-center md:justify-end pr-0 md:pr-12">
+<img alt="Discovering Design" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9F4zInoamDhza7TilJH7AeHjg04fzygdDWslp-VaFeDdNUwwFn5LSsRh0RzU_1nthsedwEzhWRxmXuEWCi4dhyDAat4Vc6Pa7bNIXViWHy29s8Ak_2lnk35nzE4PXeC1g78F_U3VmU35exqJX21KvL8Vx-_SVZ1H5-X5uQYlfrK55E1TiRKo3L1z-0tMR3WkqE6lHLs0a6dHExIwUulbG_nMaiO6HqEex93-C3TUs8lODBzNKTIW_HBuE-SEB2X4PqNJbY7t0ew">
+</div>
+</div>
+<!-- 3. 2011 - Professional Career Begins -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2011</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Professional Career Begins</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Joined Anand Diaries Pvt. Ltd, where raw creativity was forged into a professional discipline, managing high-stakes production and design.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3"><div class="flex justify-center md:justify-start pl-0 md:pl-12"><img alt="Anand Diaries Logo" class="rounded-[24px] w-full max-w-[500px] aspect-video object-contain bg-white p-8 shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0uiVe3R5q_X3GVga9JrOekIfSOJMHM8aLfT-a-Md_N4m9c-GvSSnl-A7fWwDd9YbERk04wFM5k11c4bnqs7PPHpH-1CfB5vmvNdseyKEZiTTdDyWk79gFoOs4DSx1PiX3XkzHBcgHlJRWODb43A_ynGN571XAJbiX0p0p4DHViuc0B7aaHdyEDhyPVzyY-txccNMBhiTmOVTYLO-wtwd25ogJyPAfIVXAWH08JdbLnbkwy9OVB-HM3wYDg"></div></div>
+</div>
+<!-- 4. 2015 - Building Brand Decorator -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2015</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Building Brand Decorator</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Launched Brand Decorator, marking the start of a thriving freelance journey and establishing a unique voice in the creative industry.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1"><div class="flex justify-center md:justify-end pr-0 md:pr-12"><img alt="Brand Decorator Logo" class="rounded-[24px] w-full max-w-[500px] aspect-video object-contain bg-primary p-8 shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD62Vk2h_Mspu0_flHZXxlfvsrLUhLlJogbtwp2ia5gi173R61dQTzhEmQkXeeTvAjyVG7ZvMX_mF8THdCpnEjbffJQPZhscZbpOMdRJNnEcPPEPRSf3uL4Wz56XHlSdVXpBhKLBfRVLeJSDiQQDpI2_FJ7Kte8XGRwVnzSAJVCFn5Y3IAEbzfg5cBydHqWrqNOZUs-D5WkrQM9frsZF8XUQ5jT5PupB1164BQzq4oo2ifiCy5fZtW4pRwza-_gfsv9wfPpxf_pw"></div></div>
+</div>
+<!-- 5. 2019 - Exploring Language, Poetry & Culture -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2019</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Language &amp; Culture</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Deep immersion into Urdu and Persian literature. The name 'Aziim Dehlvi' emerges, reflecting a deep connection to Indo-Persian heritage.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 flex justify-center md:justify-start pl-0 md:pl-12">
+<img alt="Poetry &amp; Culture" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnOGm6NYKld0CmPJh3KGPeezBiTFQ8vG6QJKsw7WjA_nsIN587P63kflqnmW5EEV4_DH9zgcUR-ABRfwwfwWTjGBZzwmarvwpjTJJ1Oi477cLVyUlSUzZVOqCWamcZLYmZxuOC4isMgjKWHKOxJBCr04559nKoplRQEbU2PPs5CMsvnpLg7q1q8UXBfGgyOutBlMfjkeIfkEaMgWHQmHMaGBc3BhLm7PYByfkltIRGMkLyw4Yyo5gW2dqlt1YIPM_nk4FvrRyS0Q">
+</div>
+</div>
+<!-- 6. 2025 - First Qawwali Composition -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2025</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Qawwali Composition</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">A spiritual milestone: writing a Qawwali for master Sant Rajinder Singh Ji Maharaj, with music composed by the renowned Aman Pant.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1 flex justify-center md:justify-end pr-0 md:pr-12">
+<img alt="Qawwali Composition" class="rounded-[24px] w-full max-w-[500px] aspect-video object-cover shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt0TNABH8pS-JTm5OLrPT3aOTmAF-yq0Dx2PEJnm1UpxuxaVB7QSh43Taez91Br3ntNsGbCTBWLOmWP3fHVW_283wUvK4dTVdMpBJfLPFKcfnb4X4AVUszH7giAB99Q2S8dTs4rfC8ZuNyyFmaqsIiGsXrYgLZy-A_32ix_Mcci8R7DKB5JzzBeGLbvjWnVrYKK_TnPLdeFC0gT-iZVGZKmPoJRZj0RhucIBI1YnGDcsxrITdFxoyTiYw8Tq7TvU5BgOgJ8KbT2w">
+</div>
+</div>
+<!-- 7. 2026 - Becoming an Author -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-1">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">2026</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Becoming an Author</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Published 'Decode the Divorce Industry in India', a critical look at modern societal challenges through a legal and social lens.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 flex justify-center md:justify-start pl-0 md:pl-12">
+<img alt="Book Mockup" class="rounded-[24px] w-full max-w-[350px] object-contain shadow-sm transition-all duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0ujADbbTGx5LXbpDZyrJCfoTq29Pf7OJICno4sYis3ECUYqnuYciGsIMXZMC4rM80_5gm2xMXHUr4SjjjFW9zd5V6AfIDZvDiUZ5b2rX0-ePsxA5S9SF3bG8r7mvflhh8WkZ8Erf0dX7f596gL1JLqUIeoejovBaLk16lHHoNpJWJ0v5Ih4tKF6w9SJMTm0YFz5OiMWVPMLJ4bEj1ev_Op36eJDot3UTzSGnG-AgCnSjaGzAg5s3GaOm">
+</div>
+</div>
+<!-- 8. Today - Intersection -->
+<div class="flex flex-col md:flex-row items-center md:justify-between w-full group">
+<div class="md:w-[45%] order-2 md:order-3">
+<div class="glass-card p-8 rounded-[24px] shadow-sm hover:shadow-lg transition-all duration-500 duration-1000 opacity-100 translate-y-0">
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">TODAY</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Design, Literature &amp; Creative Direction</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">The final convergence of all mediums — where cinematic design meets poetic truth and strategic creative direction.</p>
+</div>
+</div>
+<div class="z-10 bg-primary w-4 h-4 rounded-full ring-8 ring-background mb-8 md:mb-0 order-1 md:order-2"></div>
+<div class="md:w-[45%] order-3 md:order-1 flex justify-center md:justify-end pr-0 md:pr-12">
+<div class="bg-primary/5 rounded-[24px] p-8 flex items-center justify-center">
+<img alt="Aziim Dehlvi Logo" class="w-48 h-auto opacity-40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwjEcTlj55WwEo9u5LgIx5NOkchKuTJnp6_01FX8D6FLsAUjiU7wy8pQypF_aZpwPI6GJS5JS5P_Ulw2_MvECITNNb7Vt3RIXre-TWuyFq9B_4H6dhDWary2JZcnP_2ULiayVKgqB9gMfn8s61ZsTOG8VsXWUxln_x9n1XBO9P450A9FuTIUmSTSg8tBzjGIcCq2_8nrJF-y9IOw5ecDn1ae9USEqTJ087R2Ooks8XWv80p_sayqeGLOg-KJJ5bHCIRs6l2d9iQ">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+<div class="space-y-8">
+<h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary">Collaborate with Amit Manocha&nbsp;</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Whether you're looking for cinematic design, poetic insight under my pen name Aziim Dehlvi, or a creative partnership with Amit Manocha, my door is always open. Let's craft something memorable through our shared vision.</p>
+<div class="space-y-6 pt-8">
+<div class="flex items-center gap-6 group">
+<div class="w-14 h-14 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">alternate_email</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline uppercase">Primary Inquiries</p>
+<a class="font-body-lg text-body-lg text-primary hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a>
+</div>
+</div>
+<div class="flex items-center gap-6 group">
+<div class="w-14 h-14 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline uppercase">Collaborations</p>
+<a class="font-body-lg text-body-lg text-primary hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a>
+</div>
+</div>
+</div>
+</div>
+<div class="glass-card p-10 rounded-[24px] transition-all duration-1000 opacity-100 translate-y-0">
+<form class="space-y-6" onsubmit="return false;">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">NAME</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="Your name" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">EMAIL</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="your@email.com" type="email">
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">SUBJECT</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="Project or Poetry" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-label-caps text-primary">MESSAGE</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary transition-all outline-none" placeholder="Tell me about your vision..." rows="5"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-full font-body-lg font-bold hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                        Send Message
+                        <span class="material-symbols-outlined">send</span>
+</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-stack-xl bg-surface-bright dark:bg-primary border-t border-outline-variant/10 transition-all duration-500 ease-out">
+<div class="flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<img alt="Amit Manocha Logo" class="h-16 w-auto mb-8 grayscale opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwjEcTlj55WwEo9u5LgIx5NOkchKuTJnp6_01FX8D6FLsAUjiU7wy8pQypF_aZpwPI6GJS5JS5P_Ulw2_MvECITNNb7Vt3RIXre-TWuyFq9B_4H6dhDWary2JZcnP_2ULiayVKgqB9gMfn8s61ZsTOG8VsXWUxln_x9n1XBO9P450A9FuTIUmSTSg8tBzjGIcCq2_8nrJF-y9IOw5ecDn1ae9USEqTJ087R2Ooks8XWv80p_sayqeGLOg-KJJ5bHCIRs6l2d9iQ">
+<h2 class="font-headline-md text-headline-md text-primary dark:text-primary-fixed mb-4">Amit Manocha</h2>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant mb-4 italic">A.K.A. Aziim Dehlvi</p>
+<div class="flex flex-col gap-2 mb-8">
+<a class="font-body-md text-primary hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a>
+<a class="font-body-md text-primary hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a>
+</div>
+<div class="flex flex-wrap justify-center gap-8 mb-12">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">LinkedIn</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Instagram</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Threads</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Contact</a>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant opacity-60">
+            © 2026 Amit Manocha. All rights reserved.
+        </p>
+</div>
+</footer>
+<script>
+    // Subtle scroll effect for the header
+    window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 20) {
+            nav.classList.add('py-4');
+            nav.classList.remove('py-6');
+            nav.classList.add('shadow-md');
+        } else {
+            nav.classList.add('py-6');
+            nav.classList.remove('py-4');
+            nav.classList.remove('shadow-md');
+        }
+    });
+
+    // Simple Fade-in Observer for Timeline
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-10');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.glass-card, .timeline-line').forEach(el => {
+        el.classList.add('opacity-0', 'transition-all', 'duration-1000');
+        if (el.classList.contains('glass-card')) el.classList.add('translate-y-10');
+        observer.observe(el);
+    });
+</script>
+
+
+
+
+</body></html>
+
+<!-- Portfolio - Amit Manocha -->
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Portfolio | Amit Manocha</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@500;600;700&amp;family=Montserrat:wght@600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#e0e3e6",
+                    "on-background": "#191c1e",
+                    "on-surface": "#191c1e",
+                    "on-error": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "secondary-container": "#9ae1ff",
+                    "on-secondary-container": "#09657f",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed-dim": "#89d0ed",
+                    "inverse-primary": "#b3c5ff",
+                    "surface-variant": "#e0e3e6",
+                    "on-primary-fixed": "#00174a",
+                    "error": "#ba1a1a",
+                    "background": "#f7f9fc",
+                    "surface-container": "#eceef1",
+                    "surface-container-low": "#f2f4f7",
+                    "outline-variant": "#c5c6d2",
+                    "primary-fixed": "#dbe1ff",
+                    "surface-tint": "#435b9f",
+                    "deep-navy": "#001A4D",
+                    "surface-bright": "#f7f9fc",
+                    "tertiary-fixed": "#ffdad5",
+                    "surface-dim": "#d8dadd",
+                    "on-secondary-fixed": "#001f29",
+                    "outline": "#757682",
+                    "on-primary-container": "#758dd5",
+                    "tertiary-fixed-dim": "#ffb4a9",
+                    "inverse-surface": "#2d3133",
+                    "on-primary": "#ffffff",
+                    "glass-white": "rgba(255, 255, 255, 0.7)",
+                    "on-primary-fixed-variant": "#2a4386",
+                    "surface": "#f7f9fc",
+                    "secondary": "#0c6780",
+                    "inverse-on-surface": "#eff1f4",
+                    "surface-container-high": "#e6e8eb",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#5a0001",
+                    "primary-container": "#002366",
+                    "tertiary": "#330000",
+                    "error-container": "#ffdad6",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#f35f4e",
+                    "on-secondary-fixed-variant": "#004d62",
+                    "on-tertiary-fixed-variant": "#8d150e",
+                    "primary-fixed-dim": "#b3c5ff",
+                    "on-tertiary-fixed": "#410000",
+                    "secondary-fixed": "#baeaff",
+                    "pure-white": "#FFFFFF",
+                    "on-surface-variant": "#444650",
+                    "primary": "#00113a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "stack-xl": "120px",
+                    "gutter": "32px",
+                    "margin-mobile": "24px",
+                    "margin-desktop": "80px",
+                    "container-max": "1440px"
+            },
+            "fontFamily": {
+                    "display-lg": ["Playfair Display"],
+                    "body-lg": ["Inter"],
+                    "label-caps": ["Montserrat"],
+                    "headline-md": ["Playfair Display"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "headline-xl": ["Playfair Display"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["20px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                    "display-lg-mobile": ["48px", {"lineHeight": "1.1", "fontWeight": "700"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #f7f9fc;
+            color: #191c1e;
+            overflow-x: hidden;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(197, 198, 210, 0.2);
+        }
+        .cinematic-reveal {
+            animation: reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes reveal {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .masonry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 40px;
+        }
+        @media (max-width: 768px) {
+            .masonry-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md bg-background">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-glass-white backdrop-blur-xl border-b border-outline-variant/20 shadow-sm transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center px-6 md:px-margin-desktop py-6 max-w-container-max mx-auto">
+<a class="flex items-center gap-3 group" href="#"><img alt="Amit Manocha Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd4IG71Z796VAv0zTlNjNixZ2qJQcQHzeLdLkYFSPBvyAkvONGJPoZXOLqEvJ9BdMRoH1BI7b55z0dJowxT47bEpgDcjaEBCBWzt-L56z74Y5ILcmXyetSw-_BAqW8qeATV0IHf_OUayt1uUlzv6XDMvsMUd-HezwpSyuN_wBjPtkeqEksJwgsBhEf6KgbHmuznLH2j7NT-K0daBNgiFekr2zTLFJ_xpBflMNucDtV-xbv9DcFMxQF2JxfJ6TontjVtEwl5sXjVg"><span class="font-headline-md text-2xl md:text-3xl font-bold text-primary">Amit Manocha</span></a>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Portfolio</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Books</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Poetry</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Journey</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Contact</a>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full font-body-md hover:opacity-80 transition-opacity">Let's Talk</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary" onclick="toggleMobileMenu()">
+<span class="material-symbols-outlined" style="font-size: 32px;">menu</span>
+</button>
+</div>
+</nav>
+<!-- Mobile Menu Overlay (Hidden by default) -->
+<div class="fixed inset-0 bg-surface z-[60] flex flex-col p-8 transform translate-x-full transition-transform duration-500 md:hidden" id="mobile-menu">
+<div class="flex justify-end">
+<button onclick="toggleMobileMenu()"><span class="material-symbols-outlined text-4xl">close</span></button>
+</div>
+<div class="flex flex-col space-y-8 mt-12">
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Home</a>
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Portfolio</a>
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Books</a>
+<a class="font-display-lg-mobile text-display-lg-mobile text-primary" href="#">Contact</a>
+</div>
+</div>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-stack-xl">
+<div class="cinematic-reveal">
+<p class="font-label-caps text-label-caps text-primary tracking-[0.3em] mb-4">SELECTED WORKS</p>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary max-w-4xl mb-8">
+                    Curating experiences through <span class="italic font-normal">visual poetry</span>.
+                </h1>
+<div class="flex flex-wrap gap-4" id="category-filters">
+<button class="px-6 py-2 rounded-full border border-primary bg-primary text-white font-label-caps text-[10px] transition-all" data-filter="all">ALL</button>
+<button class="px-6 py-2 rounded-full border border-outline text-on-surface-variant font-label-caps text-[10px] hover:border-primary transition-all" data-filter="branding">BRANDING</button>
+<button class="px-6 py-2 rounded-full border border-outline text-on-surface-variant font-label-caps text-[10px] hover:border-primary transition-all" data-filter="motion">MOTION GRAPHICS</button>
+<button class="px-6 py-2 rounded-full border border-outline text-on-surface-variant font-label-caps text-[10px] hover:border-primary transition-all" data-filter="digital">DIGITAL DESIGN</button>
+</div>
+</div>
+</section>
+<!-- Portfolio Gallery -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto pb-stack-xl">
+<div class="masonry-grid">
+<!-- Project 1: Branding -->
+<div class="group cursor-pointer portfolio-item cinematic-reveal" data-category="branding" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.8] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Project Alpha" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDScf90jN-wJ56IMX7kbZ4E9g3713sp02ZytErpPK7qNsZuUWgLnS9uyQvZ6T6PVHdcryE_WUfOliF49Znq7bJD0Gi-gUH2eYTWoKnXQIVmkq5WG0VF02Q8VXuOZHZDHTGSLcIi8F2BuSY6WBIcDFJhyBO69XqtesSHgFlXUGvkCcpx51SpZRQ2KEAK1qY-DaLwRV9A9fGsft5HXzTwcJXuVKyYK2_JCMvVD91t6J-GATVZS60Gqh2zBGc5aoSVjZmt7vLCnzvLNA">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">BRANDING • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">IYC Branding Evolution</h3>
+</div>
+</div>
+<!-- Project 2: Motion -->
+<div class="group cursor-pointer portfolio-item mt-0 md:mt-20 cinematic-reveal" data-category="motion" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.71] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Business Conclave" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtpESn4gmPObpPQQ9R7CEiRyy0uHF5GPh8O4U9bmZQLtX30wdguRvMQbYjHbCm-VFnYtWakAqisuRWv_D4JPv61SPSP_f9tIXcXuR4UC45Hfdipjg9hMVkvlTzCD67G4YcSTqgGhdUiQwKhnDwVj5_vx7MjI9W9hMXq6Zv1EwiLo13GVAu9YKC1yzWMF-2GcQLQcxB3PCDUzTlicQdayWTYJNW0Ylypq60X-C_Q5CF9A6YT5nTT_lDCcajwvksdJtzmZDEbfX6aQ">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">MOTION • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">IYC Business Conclave</h3>
+</div>
+</div>
+<!-- Project 3: Digital -->
+<div class="group cursor-pointer portfolio-item cinematic-reveal" data-category="digital" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.67] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Digital Flow" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeskxKkX0va16kybtntjs_GoXoFzsCHFhMrfo2SzDluVJmSEs9damSin2bagRcdlSi1j3lfudaVZNi0ePFef6IGrOu3n0UB9FcnGGZ18iDiA672zMOnSd1pjNR2PeXlxWVuE1iVqAB55uqwnuUfqXPsWZP8QnTtK312CnXSTNIk4Gsa57B1euHOCtUZaaNW2kUfMEr_KsW4yeinqoL4rpPYAG5Zf9ml7881tj3pYjhzUYc8bv7JYSrORIk70dHMOhDSG6meFj67A">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">DIGITAL • 2023</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">Fluid Interfaces</h3>
+</div>
+</div>
+<!-- Project 4: Branding -->
+<div class="group cursor-pointer portfolio-item mt-0 md:mt-[-40px] cinematic-reveal" data-category="branding" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.8] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Cultural Identity" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhERCJ4eKXSXXo-2dBjVELaq5FiaV19WuisbuQ_yT6OyajRxy7dq_QqGDeXQ-rapPe-YB0-vHsKJB7JFVTQWF7aqdHwpD5QFC9NNuAODPnUFl-7aRwWeR2aln4L-qBcj-OAmWWgQ3zsVWeM6vwNA6ayyRWuxjqXjpvB4ITyBkZMl0Vb6RXoZkVICRmqu0n0Z1E61PMLtzxaMlPTzZ4YSBq8fZb3GoU9g5zbbgAYNHsMCiuSuzuTvEzT31Ssv5B8MJ2ou5xYua5xg">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">BRANDING • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">The Aziim Identity</h3>
+</div>
+</div>
+<!-- Project 5: Motion -->
+<div class="group cursor-pointer portfolio-item cinematic-reveal" data-category="motion" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.68] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Kinetic Type" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7uR58V0BsoAU0QoOf5PXqi1MtaEbh5nMvDN147YpFa3gJ489hmgvtVx4gJHywcN35WCxhW6DZC3wYpq_ooZ5dM6Yr3o5wQduMYfYnuPOdLKoS6b-oTgbfVo8Dyr_6HLe5awCP8zeLfsS4hOgEns8ssxlEqFbPzO-b6nuHQcFowYjx9qMaqzFBXHPz1C09BFnk0MjyLLIaU3Ox9BS9LOZXXWN0uyBfhRCY--aPlZ1KZSL0mPAf8OiS0nOAzb9DRVAEZ8eIiNyA9g">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">MOTION • 2023</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">Kinetic Expressionism</h3>
+</div>
+</div>
+<!-- Project 6: Digital -->
+<div class="group cursor-pointer portfolio-item mt-0 md:mt-20 cinematic-reveal" data-category="digital" style="opacity: 0;">
+<div class="overflow-hidden rounded-[24px] aspect-[0.8] mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-700">
+<img alt="Experience Design" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgMYaU97LOy-PR26jV3upGQHuCNtgSjfkdfYu2TKjagmfnzqrt9oYzRe_AS3XTd5vSvilQInbhK-a1F_DJaNOcuLioxC-0duaouNlGVKXOePEKMgn2JSPT4--ai0_JvuOj_TdhTQu0oYwkkxCFdmJ1X2QPHpngEoLnODxp-KQr5MBxjIQ7jGW_n0vhHEb0BE09Qvo-ONUEuE2rKYAxPaZTJ9j7uUh6Asz2QMhrq4NTvkudICQ4xR9d4rNMSLQgfB8CfZXqONpI_w">
+</div>
+<div class="px-2">
+<p class="font-label-caps text-[10px] text-secondary mb-2">DIGITAL • 2024</p>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:translate-x-2 transition-transform duration-500">Visionary Ecosystems</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="bg-primary-container py-stack-xl text-center">
+<div class="px-margin-mobile md:px-margin-desktop max-w-3xl mx-auto">
+<h2 class="font-headline-xl text-headline-xl text-on-primary-container mb-8">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2><p class="text-on-primary-container/80 mb-8 font-body-md">Aziim Dehlvi is my literary persona for creative writing and poetry.</p>
+<button class="bg-on-primary-container text-primary-container px-12 py-5 rounded-full font-body-lg font-bold hover:scale-105 transition-transform duration-300">
+                    Start a Conversation
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-stack-xl border-t border-outline-variant/10 bg-surface-bright transition-all duration-500 flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="contact"><div class="mb-8 flex flex-col items-center gap-4"><img alt="Amit Manocha Logo" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd4IG71Z796VAv0zTlNjNixZ2qJQcQHzeLdLkYFSPBvyAkvONGJPoZXOLqEvJ9BdMRoH1BI7b55z0dJowxT47bEpgDcjaEBCBWzt-L56z74Y5ILcmXyetSw-_BAqW8qeATV0IHf_OUayt1uUlzv6XDMvsMUd-HezwpSyuN_wBjPtkeqEksJwgsBhEf6KgbHmuznLH2j7NT-K0daBNgiFekr2zTLFJ_xpBflMNucDtV-xbv9DcFMxQF2JxfJ6TontjVtEwl5sXjVg"><h2 class="font-headline-md text-headline-md text-primary">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2><p class="font-body-md text-on-surface-variant max-w-2xl">Collaborating at the intersection of design and literature. Amit Manocha is my creative professional name for design and strategy, while Aziim Dehlvi is my literary pen name for poetry and prose.</p></div><div class="flex space-x-6 mb-8"><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">LinkedIn</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Instagram</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Threads</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a></div><p class="font-body-md text-body-md text-on-surface-variant">© 2026 Amit Manocha. All rights reserved.</p></footer>
+<script>
+        // Filter logic
+        const filterButtons = document.querySelectorAll('#category-filters button');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filter = btn.getAttribute('data-filter');
+                
+                // Update button styles
+                filterButtons.forEach(b => {
+                    b.classList.remove('bg-primary', 'text-white');
+                    b.classList.add('text-on-surface-variant');
+                });
+                btn.classList.add('bg-primary', 'text-white');
+                btn.classList.remove('text-on-surface-variant');
+
+                // Filter items
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                        setTimeout(() => item.style.opacity = '1', 10);
+                    } else {
+                        item.style.opacity = '0';
+                        setTimeout(() => item.style.display = 'none', 300);
+                    }
+                });
+            });
+        });
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('translate-x-full');
+        }
+
+        // Scroll animations for projects
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('cinematic-reveal');
+                }
+            });
+        }, observerOptions);
+
+        portfolioItems.forEach(item => {
+            item.style.opacity = '0';
+            observer.observe(item);
+        });
+    </script>
+
+
+
+
+</body></html>
+
+<!-- Contact - Amit Manocha -->
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Contact | Aziim Dehlvi</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Montserrat:wght@600;700&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&amp;display=swap" rel="stylesheet">
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "background": "#f7f9fc",
+                        "on-error": "#ffffff",
+                        "primary-container": "#002366",
+                        "tertiary-container": "#5a0001",
+                        "on-tertiary-fixed": "#410000",
+                        "surface-tint": "#435b9f",
+                        "on-secondary-fixed": "#001f29",
+                        "tertiary": "#330000",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdad5",
+                        "secondary-container": "#9ae1ff",
+                        "tertiary-fixed-dim": "#ffb4a9",
+                        "secondary-fixed": "#baeaff",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#b3c5ff",
+                        "on-background": "#191c1e",
+                        "outline": "#757682",
+                        "on-surface": "#191c1e",
+                        "secondary": "#0c6780",
+                        "surface-container": "#eceef1",
+                        "on-secondary-container": "#09657f",
+                        "on-surface-variant": "#444650",
+                        "on-secondary": "#ffffff",
+                        "surface-variant": "#e0e3e6",
+                        "surface-container-low": "#f2f4f7",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed": "#00174a",
+                        "secondary-fixed-dim": "#89d0ed",
+                        "inverse-surface": "#2d3133",
+                        "surface-bright": "#f7f9fc",
+                        "on-tertiary-container": "#f35f4e",
+                        "on-secondary-fixed-variant": "#004d62",
+                        "on-primary-container": "#758dd5",
+                        "surface-container-highest": "#e0e3e6",
+                        "primary": "#00113a",
+                        "on-tertiary-fixed-variant": "#8d150e",
+                        "surface-container-high": "#e6e8eb",
+                        "inverse-on-surface": "#eff1f4",
+                        "error": "#ba1a1a",
+                        "primary-fixed": "#dbe1ff",
+                        "deep-navy": "#001A4D",
+                        "on-primary-fixed-variant": "#2a4386",
+                        "outline-variant": "#c5c6d2",
+                        "surface-dim": "#d8dadd",
+                        "glass-white": "rgba(255, 255, 255, 0.7)",
+                        "pure-white": "#FFFFFF",
+                        "primary-fixed-dim": "#b3c5ff",
+                        "surface": "#f7f9fc"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "32px",
+                        "container-max": "1440px",
+                        "stack-xl": "120px",
+                        "margin-desktop": "80px",
+                        "margin-mobile": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Inter"],
+                        "label-caps": ["Montserrat"],
+                        "display-lg": ["Playfair Display"],
+                        "headline-xl": ["Playfair Display"],
+                        "body-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "500" }],
+                        "display-lg-mobile": ["48px", { "lineHeight": "1.1", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "600" }],
+                        "display-lg": ["72px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["20px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .ambient-shadow {
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.04);
+        }
+        .form-input-glow:focus {
+            box-shadow: 0 0 15px rgba(154, 225, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 bg-glass-white backdrop-blur-md border-b border-outline-variant/20 shadow-sm h-20">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-full"><a class="flex items-center gap-3 group" href="#"><img alt="Amit Manocha Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCRU7hqryJVuDv_5XRTSDzceonJoXdqOytHKcaV6VrMmnRp_j7TOW2ufQ3epbGODb_hAFV2u3u7xiKxvqY7dcqwBZ6V_IBMDimshoVl6ZeNBIp8sEcftrTgwhmrLIZJJ4FWz1oYgbu-3UCQ3Up3iVBOnKrbIgcb33otL2BEtNowBoDb7RZTaqlcwtDLLG4_nWYAmUsC8UdXmioeeMICytwe5FAUjkd7JHaAR54b2C6sKL6baUShFFsP2qcdamrEE9P_Knvwb4_6Q"><span class="font-headline-md text-2xl md:text-3xl font-bold text-primary">Amit Manocha</span></a><div class="hidden md:flex space-x-8 items-center"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Home</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#portfolio">Portfolio</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#books">Books</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#poetry">Poetry</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#journey">Journey</a><a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1" href="#contact">Contact</a></div><button class="hidden md:flex items-center justify-center px-6 py-2.5 rounded-full bg-primary text-on-primary font-body-md hover:bg-deep-navy transition-colors shadow-lg shadow-primary/10">Let's Talk</button><button class="md:hidden text-primary"><span class="material-symbols-outlined">menu</span></button></div>
+</nav>
+<main class="pt-40 pb-stack-xl overflow-x-hidden">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<!-- Hero Title -->
+<header class="mb-20 animate-fade-in transition-all duration-1000 ease-out opacity-100 translate-y-0" style="animation: fadeIn 1s ease-out;">
+<p class="font-label-caps text-label-caps text-primary mb-4 tracking-[0.2em] uppercase">Get in Touch</p>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg max-w-4xl text-deep-navy leading-tight">
+                    Let’s create something <span class="italic font-serif">extraordinary</span> together.
+                </h1>
+</header>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+<!-- Contact Form Section -->
+<section class="lg:col-span-7 bg-pure-white rounded-[24px] p-8 md:p-12 ambient-shadow border border-outline-variant/10 transition-all duration-1000 ease-out opacity-100 translate-y-0">
+<form action="#" class="space-y-8" method="POST">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] text-outline tracking-widest uppercase ml-1" for="name">Full Name</label>
+<input class="w-full bg-[#F5F7FA] border-none rounded-xl py-4 px-6 text-on-surface focus:ring-1 focus:ring-secondary transition-all duration-300 form-input-glow outline-none font-body-md" id="name" name="name" placeholder="Amit Manocha" required="" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] text-outline tracking-widest uppercase ml-1" for="email">Email Address</label>
+<input class="w-full bg-[#F5F7FA] border-none rounded-xl py-4 px-6 text-on-surface focus:ring-1 focus:ring-secondary transition-all duration-300 form-input-glow outline-none font-body-md" id="email" name="email" placeholder="hello@example.com" required="" type="email">
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] text-outline tracking-widest uppercase ml-1" for="subject">Subject</label>
+<input class="w-full bg-[#F5F7FA] border-none rounded-xl py-4 px-6 text-on-surface focus:ring-1 focus:ring-secondary transition-all duration-300 form-input-glow outline-none font-body-md" id="subject" name="subject" placeholder="Project Inquiry / Collaboration" required="" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] text-outline tracking-widest uppercase ml-1" for="message">Your Message</label>
+<textarea class="w-full bg-[#F5F7FA] border-none rounded-xl py-4 px-6 text-on-surface focus:ring-1 focus:ring-secondary transition-all duration-300 form-input-glow outline-none font-body-md resize-none" id="message" name="message" placeholder="Share your vision with me..." required="" rows="5"></textarea>
+</div>
+<button class="group flex items-center justify-center gap-3 bg-primary text-on-primary font-body-md font-medium py-5 px-10 rounded-full hover:bg-primary-container transition-all duration-500 scale-100 active:scale-95 shadow-lg shadow-primary/10" type="submit">
+                            Send Message
+                            <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+</form>
+</section>
+<!-- Information Section -->
+<aside class="lg:col-span-5 space-y-16 pl-0 lg:pl-12 transition-all duration-1000 ease-out opacity-100 translate-y-0">
+<!-- Atmospheric Visual -->
+<div class="relative w-full aspect-[4/3] rounded-[24px] overflow-hidden ambient-shadow group">
+<img alt="Cinematic atmospheric creative space" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="A sophisticated and moody creative studio setup featuring high-end design tools and soft natural light spilling over a textured surface. The scene is shot in a cinematic style with deep blues and neutral tones, emphasizing a minimalist and professional atmosphere. The lighting is diffused, creating an elegant and curated aesthetic consistent with a premier artist portfolio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0Xsm9jDDxRrBa8N3WFcA_3aUMcN0-BqWCcmRfiFWHKlh4RLvLGt8I3VdpKRZraZV43L0eNnSNefnRnDhvuaO_HOW3KepxvJZVBeptmXqNG8ByejDhUAIc8oNsO4oD6zHAnIJ3B4FhmTIMuraMtW_prZN4_O7ox5Y3Whr38zo9RJXLOpDMotd4WBu5gTRBupeOFv57NiNyRV2YVolF-AgG2o0E0zVPhxwRNwi7QX5aIzAE4kp_wKJTijM4sO2jY5eGXBzs4RRtvQ">
+<div class="absolute inset-0 bg-gradient-to-t from-deep-navy/40 to-transparent"></div>
+</div>
+<!-- Direct Contact -->
+<div class="space-y-10">
+<div class="space-y-4">
+<h3 class="font-headline-md text-headline-md text-deep-navy">Contact Details</h3>
+<div class="space-y-6">
+<a class="flex items-center gap-4 group" href="mailto:amietmanochaa@gmail.com">
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary">mail</span>
+</div>
+<div>
+<p class="font-label-caps text-[10px] text-outline uppercase">Primary Email</p>
+<p class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">amietmanochaa@gmail.com</p>
+</div>
+</a>
+<a class="flex items-center gap-4 group" href="mailto:aziimdehlvi@gmail.com">
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary">alternate_email</span>
+</div>
+<div>
+<p class="font-label-caps text-[10px] text-outline uppercase">Literary Inquiry</p>
+<p class="font-body-lg text-body-lg text-on-surface group-hover:text-primary transition-colors">aziimdehlvi@gmail.com</p>
+</div>
+</a>
+</div>
+</div>
+<!-- Social Presence -->
+<div class="space-y-6">
+<p class="font-label-caps text-label-caps text-outline tracking-[0.2em] uppercase">Connect Digitally</p>
+<div class="flex flex-wrap gap-4">
+<a class="px-6 py-3 border border-outline-variant/30 rounded-full font-body-md text-on-surface-variant hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300" href="#">LinkedIn</a>
+<a class="px-6 py-3 border border-outline-variant/30 rounded-full font-body-md text-on-surface-variant hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300" href="#">Instagram</a>
+<a class="px-6 py-3 border border-outline-variant/30 rounded-full font-body-md text-on-surface-variant hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300" href="#">Threads</a>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full py-stack-xl border-t border-outline-variant/10 bg-surface-bright transition-all duration-500 flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="contact"><div class="mb-8 flex flex-col items-center gap-4"><img alt="Amit Manocha Logo" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNRSAxJRLQH1QqPTN_hm9Jr7uDKHW9Z6XYu8bkUMJdrq9KAbjlTc0WnVr-kzPWG8h6aUMJ2lMIdgkq5Opn4Y3xXqKHc0f-2VsxPK4KU8qMtLZla7tQBbaZj42tdAzxyb0mL3c7gzULK4JjgUz62KDyNMPPFP7hazBT2UMQq2UT_mHIOV2xJGZWbCK_hWUogBquPcE2Zb0S2z31tS0pm9RC10YysgLGa5SpB44WJLDFWbnAqBMxlqh_R3RGK9iN9OgCpTiwQhptOw"><h2 class="font-headline-md text-headline-md text-primary">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2><p class="font-body-md text-on-surface-variant max-w-2xl">Collaborating at the intersection of design and literature. Amit Manocha is my creative professional name for design and strategy, while Aziim Dehlvi is my literary pen name for poetry and prose.</p></div><div class="flex flex-wrap justify-center gap-x-6 gap-y-4 mb-8"><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">LinkedIn</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Instagram</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Threads</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a></div><p class="font-body-md text-body-md text-on-surface-variant">© 2026 Amit Manocha. All rights reserved.</p></footer>
+<script>
+        // Smooth reveal animations
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-10');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('section, aside, header').forEach(el => {
+                el.classList.add('transition-all', 'duration-1000', 'ease-out', 'opacity-0', 'translate-y-10');
+                observer.observe(el);
+            });
+        });
+
+        // Form Submission Micro-interaction
+        const form = document.querySelector('form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = form.querySelector('button');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = `<span class="material-symbols-outlined animate-spin">progress_activity</span> Sending...`;
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                btn.innerHTML = `<span class="material-symbols-outlined">check_circle</span> Message Sent!`;
+                btn.classList.replace('bg-primary', 'bg-emerald-600');
+                form.reset();
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.classList.replace('bg-emerald-600', 'bg-primary');
+                    btn.disabled = false;
+                }, 3000);
+            }, 1500);
+        });
+    </script>
+<style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
+
+</body></html>
+
+<!-- Poetry & Performance - Aziim Dehlvi -->
+<!DOCTYPE html><html dir="ltr" lang="ur"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Poetry | Aziim Dehlvi</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&amp;family=Montserrat:wght@600;700&amp;family=Noto+Nastaliq+Urdu:wght@400;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "background": "#f7f9fc",
+                    "on-error": "#ffffff",
+                    "primary-container": "#002366",
+                    "tertiary-container": "#5a0001",
+                    "on-tertiary-fixed": "#410000",
+                    "surface-tint": "#435b9f",
+                    "on-secondary-fixed": "#001f29",
+                    "tertiary": "#330000",
+                    "on-error-container": "#93000a",
+                    "tertiary-fixed": "#ffdad5",
+                    "secondary-container": "#9ae1ff",
+                    "tertiary-fixed-dim": "#ffb4a9",
+                    "secondary-fixed": "#baeaff",
+                    "on-primary": "#ffffff",
+                    "inverse-primary": "#b3c5ff",
+                    "on-background": "#191c1e",
+                    "outline": "#757682",
+                    "on-surface": "#191c1e",
+                    "secondary": "#0c6780",
+                    "surface-container": "#eceef1",
+                    "on-secondary-container": "#09657f",
+                    "on-surface-variant": "#444650",
+                    "on-secondary": "#ffffff",
+                    "surface-variant": "#e0e3e6",
+                    "surface-container-low": "#f2f4f7",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00174a",
+                    "secondary-fixed-dim": "#89d0ed",
+                    "inverse-surface": "#2d3133",
+                    "surface-bright": "#f7f9fc",
+                    "on-tertiary-container": "#f35f4e",
+                    "on-secondary-fixed-variant": "#004d62",
+                    "on-primary-container": "#758dd5",
+                    "surface-container-highest": "#e0e3e6",
+                    "primary": "#00113a",
+                    "on-tertiary-fixed-variant": "#8d150e",
+                    "surface-container-high": "#e6e8eb",
+                    "inverse-on-surface": "#eff1f4",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#dbe1ff",
+                    "deep-navy": "#001A4D",
+                    "on-primary-fixed-variant": "#2a4386",
+                    "outline-variant": "#c5c6d2",
+                    "surface-dim": "#d8dadd",
+                    "glass-white": "rgba(255, 255, 255, 0.7)",
+                    "pure-white": "#FFFFFF",
+                    "primary-fixed-dim": "#b3c5ff",
+                    "surface": "#f7f9fc",
+                    "gold-accent": "#D4AF37"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "32px",
+                    "container-max": "1440px",
+                    "stack-xl": "120px",
+                    "margin-desktop": "80px",
+                    "margin-mobile": "24px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Playfair Display"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "body-md": ["Inter"],
+                    "label-caps": ["Montserrat"],
+                    "display-lg": ["Playfair Display"],
+                    "headline-xl": ["Playfair Display"],
+                    "body-lg": ["Inter"],
+                    "nastaliq": ["Noto Nastaliq Urdu", "serif"]
+            },
+            "fontSize": {
+                    "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                    "display-lg-mobile": ["48px", {"lineHeight": "1.1", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.15em", "fontWeight": "600"}],
+                    "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-lg": ["20px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-dark {
+            background: rgba(0, 17, 58, 0.85);
+            backdrop-filter: blur(20px);
+        }
+        .text-shadow-gold {
+            text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+        }
+        .hero-gradient {
+            background: linear-gradient(to bottom, transparent, #00113a);
+        }
+        .mask-video {
+            mask-image: radial-gradient(circle, black 50%, transparent 100%);
+        }
+    </style>
+</head>
+<body class="bg-primary text-on-primary-fixed selection:bg-gold-accent selection:text-primary overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 backdrop-blur-xl border-b border-outline-variant/20 bg-glass-white/80 shadow-sm transition-all duration-300">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<a class="flex items-center gap-3 group" href="#">
+<img alt="Amit Manocha Logo" class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNRSAxJRLQH1QqPTN_hm9Jr7uDKHW9Z6XYu8bkUMJdrq9KAbjlTc0WnVr-kzPWG8h6aUMJ2lMIdgkq5Opn4Y3xXqKHc0f-2VsxPK4KU8qMtLZla7tQBbaZj42tdAzxyb0mL3c7gzULK4JjgUz62KDyNMPPFP7hazBT2UMQq2UT_mHIOV2xJGZWbCK_hWUogBquPcE2Zb0S2z31tS0pm9RC10YysgLGa5SpB44WJLDFWbnAqBMxlqh_R3RGK9iN9OgCpTiwQhptOw">
+<span class="font-headline-md text-2xl md:text-3xl font-bold text-primary">Amit Manocha</span>
+</a>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Home</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#portfolio">Portfolio</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#books">Books</a>
+<a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1" href="#poetry">Poetry</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#journey">Journey</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact</a>
+</div>
+<button class="hidden md:flex items-center justify-center px-6 py-2.5 rounded-full bg-primary text-on-primary font-body-md hover:bg-deep-navy transition-colors shadow-lg shadow-primary/10">
+            Let's Talk
+        </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Hero Section: Cinematic Video Player -->
+<section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-black">
+<div class="absolute inset-0 z-0 opacity-60">
+<!-- Simulated Video Background (Placeholder replacement logic) -->
+<div class="w-full h-full bg-cover bg-center transition-transform duration-1000 hover:scale-105" data-alt="A cinematic, low-angle shot of a classic auditorium stage bathed in deep royal blue lighting with soft golden spotlights. The air is filled with subtle atmospheric haze, creating a moody and prestigious environment. The visual style is premium and curated, evoking the feeling of a high-end creative agency performance film. The camera captures the quiet tension of an artistic masterpiece about to unfold." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB2NX8HBEXEJa57rFJxhZt0dRqB6elwVQd860HcaXMz5e5Fi7PDR8vEh2G22vCyXZOaUAx-Ie3ZcUcQs263fOROnwaphLppItzxvNYJgYuKqIvbqtq_NkSrAvGtDJxOoYYnDLcHuRrDeVAczYP77AsIJCWSWTEOJbJcA_2QXnJ2R5lHdI710_ajdgI6kwjQawYsYoANdRxvIucvmZHyJRUxefq-8EGuft3qQyq0Ba7nXk8dKta6auh8qABcXqi_s4-Cj3CGif7jXQ')"></div>
+<div class="absolute inset-0 hero-gradient"></div>
+</div>
+<div class="relative z-10 w-full max-w-5xl px-margin-mobile md:px-0">
+<div class="rounded-xl overflow-hidden shadow-2xl border border-white/10 group aspect-video bg-black/40 backdrop-blur-md">
+<!-- Video Embed -->
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.youtube.com/embed/vM1BRcKYFtg?autoplay=0&amp;controls=1&amp;rel=0&amp;modestbranding=1" title="Aziim Dehlvi Performance">
+</iframe>
+</div>
+<div class="mt-8 text-center">
+<h1 class="font-display-lg text-display-lg text-pure-white mb-2 leading-tight">Mehfil-e-Khaas</h1>
+<p class="font-label-caps text-label-caps text-gold-accent tracking-[0.3em] uppercase">Cinematic Performance Experience</p>
+</div>
+</div>
+</section>
+<!-- Featured Verse Section -->
+<section class="py-stack-xl bg-primary relative">
+<div class="max-w-container-max mx-auto px-margin-desktop text-center">
+<div class="mb-12 inline-block">
+<span class="material-symbols-outlined text-gold-accent text-5xl mb-4" data-icon="auto_stories"></span>
+</div>
+<div class="space-y-12">
+<!-- Nastaleeq Urdu -->
+<div class="font-nastaliq text-4xl md:text-6xl text-gold-accent leading-[2.5] md:leading-[2.2] tracking-wide animate-fade-in text-shadow-gold transition-all duration-1000 opacity-100 translate-y-0" dir="rtl">
+                    انکی نگاہِ ناز سے، سجا سارا یہ منظر ہے...<br>
+                    سکونِ روح مل جائے سراپا اک خواہش ہے...
+                </div>
+<!-- Roman Urdu & Translation -->
+<div class="max-w-3xl mx-auto space-y-6">
+<p class="font-headline-md text-headline-md italic text-primary-fixed opacity-90">
+                        "Unkī nigāh-e-nāz se, sajā saarā ye manzar hai...<br>
+                        Sukūn-e-rooh mil jaaye sarāpā ik khwahish hai..."
+                    </p>
+<div class="w-24 h-px bg-gold-accent/40 mx-auto"></div>
+<p class="font-body-lg text-body-lg text-primary-fixed/60 leading-relaxed max-w-2xl mx-auto">
+                        Through their graceful gaze, this entire vista is adorned...<br>
+                        That my soul finds peace is my singular, ultimate desire...
+                    </p>
+</div>
+</div>
+</div>
+<!-- Decorative Elements -->
+<div class="absolute left-0 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none hidden lg:block">
+<span class="font-nastaliq text-[20rem] text-gold-accent select-none transition-all duration-1000 opacity-100 translate-y-0">عظم</span>
+</div>
+</section>
+<!-- Poetry Bento Gallery -->
+<section class="py-stack-xl bg-deep-navy">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="font-headline-xl text-headline-xl text-pure-white mb-4">The Written Soul</h2>
+<p class="font-body-md text-body-md text-primary-fixed/70">A collection of selected couplets and verses from the upcoming anthology. Each piece is a fragment of a larger journey.</p>
+</div>
+<div class="flex gap-4">
+<button class="w-12 h-12 rounded-full border border-gold-accent/30 flex items-center justify-center text-gold-accent hover:bg-gold-accent hover:text-primary transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="chevron_left"></span>
+</button>
+<button class="w-12 h-12 rounded-full border border-gold-accent/30 flex items-center justify-center text-gold-accent hover:bg-gold-accent hover:text-primary transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="chevron_right"></span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Bento Card 1: Large Featured -->
+<div class="md:col-span-8 group relative aspect-[16/9] md:aspect-auto md:h-[500px] rounded-xl overflow-hidden bg-surface-container-highest/5 border border-white/5 p-8 flex flex-col justify-end">
+<div class="absolute inset-0 z-0">
+<img alt="Poetry Background" class="w-full h-full object-cover opacity-30 group-hover:scale-105 transition-transform duration-700" data-alt="A macro photograph of vintage parchment paper with elegant black ink calligraphy strokes. The lighting is moody and dramatic, with deep shadows and golden rim lighting that highlights the texture of the paper. This cinematic image captures the essence of traditional Urdu literature within a modern, professional portfolio context, using a palette of midnight blue and aged gold." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXG5m8HaSHV3y7S9eBkysmhkAX3m-rprlDIN5hShZ18blUEep70yMJq8YnV607yCobNv41p_n5wIwjA1CnhbcufdIlEmGmb5WW6THxW4CV7mQxVfz4cnH_7VYkqNI4lm91fULVQX2fFVoRhpcsZX6gUB3F5S0o6U5oTNtqscP9w_hiu8ulBY8bnzoxRBxvkFUZRnISsabqSdwRlme4bs3lzvhlCMQSJ5N9nvWfbpyB0TxOuFNT6Dp6h6DOkryRsBxcO9dgFJ5fGg">
+<div class="absolute inset-0 bg-gradient-to-t from-deep-navy via-deep-navy/40 to-transparent"></div>
+</div>
+<div class="relative z-10">
+<span class="font-label-caps text-label-caps text-gold-accent mb-4 block">Ghazal Excerpt</span>
+<h3 class="font-headline-md text-headline-md text-pure-white mb-4">Tumhaari Yaad Ke Jugnu...</h3>
+<p class="font-body-md text-body-md text-primary-fixed/80 max-w-md italic">"The fireflies of your memory illuminate the desolate halls of my heart every night..."</p>
+</div>
+</div>
+<!-- Bento Card 2: Square -->
+<div class="md:col-span-4 group relative aspect-square rounded-xl overflow-hidden bg-surface-container-highest/5 border border-white/5 p-8 flex flex-col justify-center items-center text-center">
+<div class="absolute inset-0 z-0 bg-gradient-to-br from-primary-container to-deep-navy opacity-40"></div>
+<div class="relative z-10">
+<span class="material-symbols-outlined text-gold-accent text-4xl mb-6" data-icon="feather"></span>
+<div class="font-nastaliq text-2xl text-on-primary-fixed leading-loose mb-4 transition-all duration-1000 opacity-100 translate-y-0">محبت خود تماشہ بن گئی ہے</div>
+<p class="font-label-caps text-label-caps tracking-widest text-gold-accent/70">Rubaiyat-e-Ishq</p>
+</div>
+</div>
+<!-- Bento Card 3: Vertical -->
+<div class="md:col-span-4 group relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-highest/5 border border-white/5 p-8 flex flex-col justify-between">
+<div class="absolute inset-0 z-0 opacity-20">
+<img alt="Reflection" class="w-full h-full object-cover grayscale" data-alt="A minimalist architectural shot of a traditional archway reflecting in a pool of still water at night. The lighting is soft and ethereal, using cool blue tones and subtle warm highlights. The composition is symmetrical and serene, embodying the 'approachable yet elite' aesthetic of the brand. It provides a visual metaphor for the reflective and deep nature of Aziim Dehlvi's poetry." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXwVevAALJChbKOM9cYP_thn9lIZXqYX-ro8z12Jbbnw5UrPKphEiKfKwBwvRRpToSuLHeEFnXb-5MVpIKungl1IR9OaPHpminJn-CuAXVD5NVyGReuofcC_O72p0n5gMozlxGFBn3EyHW1UpuaacBam1_m8zXG9zIIXV1fdFAzPWgAs4NhsyNkOAdo8Nu8G2j2IjFox74tGkd3zGwjUi62JV90l-rQZOQekYRqGnCPBOcJUDFuzcDvG0uOCLAhj3jBewjntsRuQ">
+</div>
+<div class="relative z-10 flex flex-col h-full">
+<div class="mb-auto">
+<span class="font-label-caps text-label-caps text-gold-accent mb-4 block">New Work</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-pure-white mb-2 italic">Aks</h3>
+<p class="font-body-md text-body-md text-primary-fixed/70">"A reflection isn't just an image; it's the truth trying to find a surface."</p>
+</div>
+</div>
+</div>
+<!-- Bento Card 4: Detailed Text -->
+<div class="md:col-span-8 group relative rounded-xl overflow-hidden bg-primary-container/30 border border-gold-accent/10 p-8 md:p-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="space-y-6">
+<h3 class="font-headline-md text-headline-md text-gold-accent">The Journey of a Word</h3>
+<p class="font-body-md text-body-md text-on-primary-fixed/80 leading-relaxed">
+                                Poetry is the silent music of the soul. In every couplet, Aziim weaves the tapestry of human emotion—from the agonizing beauty of longing to the quiet peace of self-realization. Explore the archives of a decade-long journey through ink and emotion.
+                            </p>
+<a class="inline-flex items-center gap-2 font-label-caps text-label-caps text-gold-accent hover:gap-4 transition-all duration-300" href="#">
+                                EXPLORE ARCHIVE <span class="material-symbols-outlined text-sm" data-icon="arrow_forward"></span>
+</a>
+</div>
+<div class="hidden md:block">
+<div class="relative w-full aspect-square flex items-center justify-center">
+<div class="absolute inset-0 border border-gold-accent/20 rounded-full animate-pulse"></div>
+<div class="absolute inset-4 border border-gold-accent/10 rounded-full"></div>
+<span class="font-nastaliq text-5xl text-gold-accent opacity-40 transition-all duration-1000 opacity-100 translate-y-0">دہلوی</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="py-stack-xl bg-primary text-center">
+<div class="max-w-2xl mx-auto px-margin-mobile">
+<h2 class="font-headline-xl text-headline-xl text-pure-white mb-6">Stay for the Verse</h2>
+<p class="font-body-lg text-body-lg text-primary-fixed/70 mb-10">Subscribe to receive exclusive couplets and early access to the upcoming poetry collection 'Sukūn-e-Rooh'.</p>
+<form class="flex flex-col md:flex-row gap-4">
+<input class="flex-1 bg-white/5 border border-white/10 rounded-full px-8 py-4 text-white focus:outline-none focus:border-gold-accent transition-colors" placeholder="Your email address" type="email">
+<button class="bg-primary-container text-pure-white px-10 py-4 rounded-full font-label-caps text-label-caps hover:bg-gold-accent hover:text-primary transition-all duration-300">SUBSCRIBE</button>
+</form>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-stack-xl border-t border-outline-variant/10 bg-surface-bright transition-all duration-500 flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="contact">
+<div class="mb-8 flex flex-col items-center gap-4">
+<img alt="Amit Manocha Logo" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNRSAxJRLQH1QqPTN_hm9Jr7uDKHW9Z6XYu8bkUMJdrq9KAbjlTc0WnVr-kzPWG8h6aUMJ2lMIdgkq5Opn4Y3xXqKHc0f-2VsxPK4KU8qMtLZla7tQBbaZj42tdAzxyb0mL3c7gzULK4JjgUz62KDyNMPPFP7hazBT2UMQq2UT_mHIOV2xJGZWbCK_hWUogBquPcE2Zb0S2z31tS0pm9RC10YysgLGa5SpB44WJLDFWbnAqBMxlqh_R3RGK9iN9OgCpTiwQhptOw">
+<h2 class="font-headline-md text-headline-md text-primary">Work with Amit Manocha (A.K.A. Aziim Dehlvi)</h2>
+<p class="font-body-md text-on-surface-variant max-w-2xl">Collaborating at the intersection of design and literature. Amit Manocha is my creative professional name for design and strategy, while Aziim Dehlvi is my literary pen name for poetry and prose.</p>
+</div>
+<div class="flex flex-wrap justify-center space-x-6 mb-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">LinkedIn</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Instagram</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Threads</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:amietmanochaa@gmail.com">amietmanochaa@gmail.com</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:aziimdehlvi@gmail.com">aziimdehlvi@gmail.com</a>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">© 2026 Amit Manocha. All rights reserved.</p>
+</footer>
+<!-- Micro-interactions & Floating Action -->
+<script>
+        // Smooth reveal on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('main-nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('py-2', 'shadow-lg');
+                nav.classList.remove('py-0');
+            } else {
+                nav.classList.remove('py-2', 'shadow-lg');
+            }
+        });
+
+        // Simple animation trigger for Urdu text
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.font-nastaliq').forEach(el => {
+            el.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(el);
+        });
+    </script>
+
+
+</body></html>
