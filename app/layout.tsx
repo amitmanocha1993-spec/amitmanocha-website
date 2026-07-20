@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import StructuredData from "@/components/StructuredData";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -76,7 +77,10 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet" />
         <StructuredData />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!} />
+      </body>
     </html>
   );
 }
