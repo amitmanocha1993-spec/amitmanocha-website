@@ -13,7 +13,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'branding-1',
     title: 'Logo Design 01',
     category: 'Branding',
-    imagePath: '/portfolio/branding/logo-01.png',
+    imagePath: '/Portfolio/branding/logo-01.png',
     folder: 'Branding',
     featured: true
   },
@@ -21,7 +21,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'branding-2',
     title: 'Logo Design 02',
     category: 'Branding',
-    imagePath: '/portfolio/branding/logo-02.png',
+    imagePath: '/Portfolio/branding/logo-02.png',
     folder: 'Branding',
     featured: true
   },
@@ -31,7 +31,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'cricket-1',
     title: 'JPL Design 01',
     category: 'Cricket',
-    imagePath: '/portfolio/cricket/jpl-01.png',
+    imagePath: '/Portfolio/cricket/jpl-01.png',
     folder: 'Cricket',
     featured: true
   },
@@ -39,7 +39,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'cricket-2',
     title: 'JPL Design 02',
     category: 'Cricket',
-    imagePath: '/portfolio/cricket/jpl-02.png',
+    imagePath: '/Portfolio/cricket/jpl-02.png',
     folder: 'Cricket',
     featured: true
   },
@@ -47,7 +47,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'cricket-3',
     title: 'JPL Design 03',
     category: 'Cricket',
-    imagePath: '/portfolio/cricket/jpl-03.png',
+    imagePath: '/Portfolio/cricket/jpl-03.png',
     folder: 'Cricket',
     featured: true
   },
@@ -55,7 +55,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'cricket-4',
     title: 'JPL Design 04',
     category: 'Cricket',
-    imagePath: '/portfolio/cricket/jpl-04.png',
+    imagePath: '/Portfolio/cricket/jpl-04.png',
     folder: 'Cricket',
     featured: false
   },
@@ -63,7 +63,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'cricket-5',
     title: 'JPL Design 05',
     category: 'Cricket',
-    imagePath: '/portfolio/cricket/jpl-05.png',
+    imagePath: '/Portfolio/cricket/jpl-05.png',
     folder: 'Cricket',
     featured: false
   },
@@ -71,7 +71,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'cricket-6',
     title: 'JPL Design 06',
     category: 'Cricket',
-    imagePath: '/portfolio/cricket/jpl-06.png',
+    imagePath: '/Portfolio/cricket/jpl-06.png',
     folder: 'Cricket',
     featured: false
   },
@@ -81,7 +81,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'digital-1',
     title: 'Digital Design 01',
     category: 'Digital Design',
-    imagePath: '/portfolio/digital-design/digital-01.png',
+    imagePath: '/Portfolio/digital-design/digital-01.png',
     folder: 'Digital Design',
     featured: true
   },
@@ -89,7 +89,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'digital-2',
     title: 'Digital Design 02',
     category: 'Digital Design',
-    imagePath: '/portfolio/digital-design/digital-02.png',
+    imagePath: '/Portfolio/digital-design/digital-02.png',
     folder: 'Digital Design',
     featured: true
   },
@@ -97,7 +97,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'digital-3',
     title: 'Digital Design 03',
     category: 'Digital Design',
-    imagePath: '/portfolio/digital-design/digital-03.png',
+    imagePath: '/Portfolio/digital-design/digital-03.png',
     folder: 'Digital Design',
     featured: true
   },
@@ -105,7 +105,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'digital-4',
     title: 'Digital Design 04',
     category: 'Digital Design',
-    imagePath: '/portfolio/digital-design/digital-04.png',
+    imagePath: '/Portfolio/digital-design/digital-04.png',
     folder: 'Digital Design',
     featured: false
   },
@@ -113,7 +113,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'digital-5',
     title: 'Digital Design 05',
     category: 'Digital Design',
-    imagePath: '/portfolio/digital-design/digital-05.png',
+    imagePath: '/Portfolio/digital-design/digital-05.png',
     folder: 'Digital Design',
     featured: false
   },
@@ -123,7 +123,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'print-1',
     title: 'Print Design 01',
     category: 'Print Design',
-    imagePath: '/portfolio/print-design/print-01.png',
+    imagePath: '/Portfolio/print-design/print-01.png',
     folder: 'Print Design',
     featured: true
   },
@@ -131,7 +131,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'print-2',
     title: 'Print Design 02',
     category: 'Print Design',
-    imagePath: '/portfolio/print-design/print-02.png',
+    imagePath: '/Portfolio/print-design/print-02.png',
     folder: 'Print Design',
     featured: true
   },
@@ -139,7 +139,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: 'print-3',
     title: 'Print Design 03',
     category: 'Print Design',
-    imagePath: '/portfolio/print-design/print-03.png',
+    imagePath: '/Portfolio/print-design/print-03.png',
     folder: 'Print Design',
     featured: false
   }
