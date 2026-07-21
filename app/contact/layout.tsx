@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   title: 'Contact',
   description: 'Get in touch with Amit Manocha (Aziim Dehlvi). Reach out for design collaborations, literary projects, poetry inquiries, or creative partnerships.',
   alternates: {
-    canonical: 'https://amitmanocha.co.in/contact',
+    canonical: 'https://www.amitmanocha.co.in/contact',
   },
   openGraph: {
     title: 'Contact | Amit Manocha',
     description: 'Get in touch with Amit Manocha (Aziim Dehlvi). Reach out for design collaborations, literary projects, poetry inquiries, or creative partnerships.',
-    url: 'https://amitmanocha.co.in/contact',
+    url: 'https://www.amitmanocha.co.in/contact',
   },
   twitter: {
     title: 'Contact | Amit Manocha',

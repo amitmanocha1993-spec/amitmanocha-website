@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   title: 'Home',
   description: 'Welcome to the portfolio of Amit Manocha (A.K.A. Aziim Dehlvi) - Creative designer, author, and poet specializing in cinematic design, Urdu poetry, and literary works.',
   alternates: {
-    canonical: 'https://amitmanocha.co.in',
+    canonical: 'https://www.amitmanocha.co.in',
   },
   openGraph: {
     title: 'Home | Amit Manocha',
     description: 'Welcome to the portfolio of Amit Manocha (A.K.A. Aziim Dehlvi) - Creative designer, author, and poet specializing in cinematic design, Urdu poetry, and literary works.',
-    url: 'https://amitmanocha.co.in',
+    url: 'https://www.amitmanocha.co.in',
   },
   twitter: {
     title: 'Home | Amit Manocha',

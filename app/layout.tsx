@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://amitmanocha.co.in'),
+  metadataBase: new URL('https://www.amitmanocha.co.in'),
   title: {
     template: '%s | Amit Manocha',
     default: 'Amit Manocha | Creative Designer & Author',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   category: 'Portfolio',
   referrer: 'origin-when-cross-origin',
   alternates: {
-    canonical: 'https://amitmanocha.co.in',
+    canonical: 'https://www.amitmanocha.co.in',
   },
   formatDetection: {
     email: false,
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Amit Manocha | Creative Designer & Author',
     description: 'Amit Manocha - A.K.A. Aziim Dehlvi. Creative designer, author, and poet specializing in cinematic design, Urdu poetry, and literary works.',
-    url: 'https://amitmanocha.co.in',
+    url: 'https://www.amitmanocha.co.in',
     siteName: 'Amit Manocha',
     locale: 'en_US',
     type: 'website',
