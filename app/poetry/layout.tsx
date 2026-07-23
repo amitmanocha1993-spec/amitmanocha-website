@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageStructuredData from '@/components/PageStructuredData';
 
 export const metadata: Metadata = {
   title: 'Poetry',
@@ -22,5 +23,18 @@ export default function PoetryLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        pageName="Poetry"
+        pageUrl="https://www.amitmanocha.co.in/poetry"
+        pageDescription="Experience Urdu poetry by Aziim Dehlvi (Amit Manocha). Read Nazm, Ghazal, Rubai, and Couplet collections exploring themes of love, mortality, and the human condition."
+        breadcrumbs={[
+          { name: 'Home', url: 'https://www.amitmanocha.co.in' },
+          { name: 'Poetry', url: 'https://www.amitmanocha.co.in/poetry' },
+        ]}
+      />
+      {children}
+    </>
+  );
 }

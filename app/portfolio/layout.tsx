@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageStructuredData from '@/components/PageStructuredData';
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -22,5 +23,19 @@ export default function PortfolioLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        pageName="Portfolio"
+        pageUrl="https://www.amitmanocha.co.in/portfolio"
+        pageDescription="View the creative portfolio of Amit Manocha featuring multidisciplinary design projects in branding, digital design, print design, and cricket."
+        breadcrumbs={[
+          { name: 'Home', url: 'https://www.amitmanocha.co.in' },
+          { name: 'Portfolio', url: 'https://www.amitmanocha.co.in/portfolio' },
+        ]}
+        isCollection={true}
+      />
+      {children}
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageStructuredData from '@/components/PageStructuredData';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -22,5 +23,17 @@ export default function HomeLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        pageName="Home"
+        pageUrl="https://www.amitmanocha.co.in"
+        pageDescription="Welcome to the portfolio of Amit Manocha (A.K.A. Aziim Dehlvi) - Creative designer, author, and poet specializing in cinematic design, Urdu poetry, and literary works."
+        breadcrumbs={[
+          { name: 'Home', url: 'https://www.amitmanocha.co.in' },
+        ]}
+      />
+      {children}
+    </>
+  );
 }
