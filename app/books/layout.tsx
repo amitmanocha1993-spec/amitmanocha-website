@@ -13,11 +13,8 @@ const bookSchema = {
   },
   image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCRcxKu9aTHdHRd5_QJTCwxNsot8Cr_eRjHWptmpdx5Zg0txyjZAt94VWJDsWXit1mL6hg26v8ltezOjxOkkFtghDlUx49LqICRME1jnRczYdS3TXO8osUH-qXkFVSIGxwAxS30yE25voR8NWoLDiB699ku3LSC0sXSxtfEAtLVnPMG-aS1vY901OdJ8dbDYn66e0uOcC9HzrDz_hzti2rKz4mf6rS7kNnPgN3_GYLEmWu42xtXR_LJelJYNy-VuC8ImNnCyq6ptA',
   url: 'https://www.amitmanocha.co.in/books',
-  isbn: 'B0GV3VTC1T',
-  numberOfPages: 247,
   datePublished: '2026-03-27',
   inLanguage: 'en',
-  bookFormat: 'https://schema.org/EBook',
   publisher: {
     '@type': 'Organization',
     name: 'Amit Manocha',
@@ -26,7 +23,6 @@ const bookSchema = {
     {
       '@type': 'Book',
       name: 'Decode the Divorce Industry in India - Kindle Edition',
-      isbn: 'B0GV3VTC1T',
       bookFormat: 'https://schema.org/EBook',
       url: 'https://www.amazon.in/Decode-Divorce-Industry-India-Matrimonial-ebook/dp/B0GV3VTC1T',
       offers: {
@@ -49,12 +45,18 @@ const bookSchema = {
     {
       '@type': 'Book',
       name: 'Decode the Divorce Industry in India - Pothi Paperback',
+      isbn: '9789358120318',
+      numberOfPages: 204,
       bookFormat: 'https://schema.org/Paperback',
       url: 'https://store.pothi.com/book/amit-kumar-manocha-decode-divorce-industry-india/',
       offers: {
         '@type': 'Offer',
         url: 'https://store.pothi.com/book/amit-kumar-manocha-decode-divorce-industry-india/',
         availability: 'https://schema.org/InStock',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Self Published',
       },
     },
   ],

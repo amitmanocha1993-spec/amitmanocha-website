@@ -79,7 +79,14 @@ export default function HomePage() {
             <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end py-12 lg:py-0">
               <div className="relative w-full max-w-[500px] aspect-[4/5] md:aspect-[3/4]">
                 <div className="absolute inset-0 rounded-[2rem] overflow-hidden shadow-2xl z-10 border border-white/20">
-                  <img alt="Amit Manocha Portrait" className="w-full h-full object-cover transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3w3PhOs6hA5zZ-S7-wSsHzhyiIgGicXUoD73uolPX3IwwWR4VmUBvxURDy4GLNqXnilEsD0abmteeZx7mqhB4aaR1dk71hV1RFf-CJeh-pd8hBJxNdn-eEL6amiSqmGhmIiUh_LkOXySqfpY9DGg-O6yxWHlL-IKIBEgt-pZgMdthSCf9o2eK4GRPDVNbAzCECY3akxFngeL4s3dRE0Poesxruw25WhcI_A43FCS70HaII05WBf4Ht8VYBJi5dWElrcQegGn8vg" />
+                  <Image
+  src="/images/amit-manocha-portrait.webp"
+  alt="Amit Manocha Portrait"
+  fill
+  priority
+  sizes="(max-width: 768px) 90vw, (max-width: 1024px) 50vw, 500px"
+  className="object-cover transition-all duration-700"
+/>
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
                 </div>
                 <div className="absolute -left-6 top-1/4 glass-card p-5 rounded-2xl z-20 animate-float max-w-[200px]">
